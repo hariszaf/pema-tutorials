@@ -32,5 +32,8 @@ To contact PEMA team you can find us at:
 <img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 250px; />
 
 
-## Cite
-Zafeiropoulos, Haris, et al. "PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes." GigaScience 9.3 (2020): giaa022.
+## About me
+My name is Haris and I am a PhD candidate at [University of Crete, Greece](http://biology.uoc.gr/) and at the [Institute of Marine Biology, Biotechnology and Aquaculture (IMBBC)](https://imbbc.hcmr.gr/) focusing on ecosystem functioning and microbial interactions via computational methods.
+
+[Here](https://hariszaf.github.io/) you may find more about me and you can contact me at
+[haris-zaf@hcmr.gr](haris-zaf@hcmr.gr).
