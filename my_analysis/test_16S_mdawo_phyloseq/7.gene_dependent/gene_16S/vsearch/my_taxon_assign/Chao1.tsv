@@ -1,0 +1,299 @@
+Rank	Taxonpath	Taxon	ERR1906857	ERR1906860	ERR1906867
+root	root	root	104.163265306	65.6	170.022988506
+meta	Main genome	Main genome	103.163265306	63.6	169.022988506
+meta	Chloroplast	Chloroplast	None	None	None
+meta	No hits	No hits	None	1.0	None
+domain	Main genome;Bacteria	Bacteria	96.1046511628	60.4166666667	169.022988506
+domain	Main genome;Archaea	Archaea	7.08333333333	None	None
+domain	Chloroplast;Bacteria (Chloroplast)	Bacteria (Chloroplast)	None	None	None
+superkingdom	Main genome;Bacteria;Proteobacteria	Proteobacteria	30.0384615385	27.0357142857	48.0
+superkingdom	Main genome;Bacteria;Actinobacteria	Actinobacteria	2.0	None	12.0
+superkingdom	Main genome;Bacteria;Bacteroidetes	Bacteroidetes	35.0	10.25	50.03125
+superkingdom	Main genome;Bacteria;Firmicutes	Firmicutes	2.0	None	None
+superkingdom	Main genome;Bacteria;Cyanobacteria	Cyanobacteria	2.0	3.0	None
+superkingdom	Main genome;Bacteria;Verrucomicrobia	Verrucomicrobia	1.0	None	3.0
+superkingdom	Main genome;Bacteria;Nitrospirae	Nitrospirae	None	1.0	2.0
+superkingdom	Main genome;Bacteria;Epsilonbacteraeota	Epsilonbacteraeota	None	None	None
+superkingdom	Main genome;Bacteria;Acidobacteria	Acidobacteria	3.5	1.0	11.0833333333
+superkingdom	Main genome;Bacteria;Chloroflexi	Chloroflexi	6.16666666667	3.25	5.0
+superkingdom	Main genome;Bacteria;Patescibacteria	Patescibacteria	4.0	None	12.0
+superkingdom	Main genome;Bacteria;Planctomycetes	Planctomycetes	5.0	5.0	11.0
+superkingdom	Main genome;Bacteria;Gemmatimonadetes	Gemmatimonadetes	1.0	None	2.0
+superkingdom	Main genome;Bacteria;Lentisphaerae	Lentisphaerae	1.0	None	None
+superkingdom	Main genome;Bacteria;Armatimonadetes	Armatimonadetes	None	None	None
+superkingdom	Main genome;Bacteria;Entotheonellaeota	Entotheonellaeota	None	1.0	1.0
+superkingdom	Main genome;Archaea;Euryarchaeota	Euryarchaeota	3.25	None	None
+superkingdom	Main genome;Archaea;Crenarchaeota	Crenarchaeota	1.0	None	None
+superkingdom	Main genome;Archaea;Thaumarchaeota	Thaumarchaeota	None	None	None
+superkingdom	Main genome;Archaea;Nanoarchaeaeota	Nanoarchaeaeota	1.0	None	None
+superkingdom	Main genome;Archaea;Asgardaeota	Asgardaeota	1.0	None	None
+superkingdom	Chloroplast;Bacteria (Chloroplast);Cyanobacteria (Chloroplast)	Cyanobacteria (Chloroplast)	None	None	None
+kingdom	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria	Gammaproteobacteria	17.0	9.0	14.0
+kingdom	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria	Alphaproteobacteria	8.25	15.125	32.0
+kingdom	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria	Deltaproteobacteria	5.0	3.0	2.0
+kingdom	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom)	Actinobacteria (kingdom)	None	None	5.0
+kingdom	Main genome;Bacteria;Actinobacteria;Coriobacteriia	Coriobacteriia	None	None	1.0
+kingdom	Main genome;Bacteria;Actinobacteria;Thermoleophilia	Thermoleophilia	None	None	None
+kingdom	Main genome;Bacteria;Actinobacteria;Acidimicrobiia	Acidimicrobiia	2.0	None	4.0
+kingdom	Main genome;Bacteria;Actinobacteria;MB-A2-108	MB-A2-108	None	None	1.0
+kingdom	Main genome;Bacteria;Bacteroidetes;Bacteroidia	Bacteroidia	35.0	10.25	50.03125
+kingdom	Main genome;Bacteria;Firmicutes;Clostridia	Clostridia	2.0	None	None
+kingdom	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria	Oxyphotobacteria	2.0	3.0	None
+kingdom	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae	Verrucomicrobiae	1.0	None	3.0
+kingdom	Main genome;Bacteria;Nitrospirae;Nitrospira	Nitrospira	None	None	1.0
+kingdom	Main genome;Bacteria;Nitrospirae;Thermodesulfovibrionia	Thermodesulfovibrionia	None	1.0	1.0
+kingdom	Main genome;Bacteria;Epsilonbacteraeota;Campylobacteria	Campylobacteria	None	None	None
+kingdom	Main genome;Bacteria;Acidobacteria;Acidobacteriia	Acidobacteriia	1.0	1.0	3.0
+kingdom	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4)	Blastocatellia (Subgroup 4)	None	None	6.25
+kingdom	Main genome;Bacteria;Acidobacteria;Subgroup 6	Subgroup 6	None	None	2.0
+kingdom	Main genome;Bacteria;Chloroflexi;Dehalococcoidia	Dehalococcoidia	None	2.5	1.0
+kingdom	Main genome;Bacteria;Chloroflexi;Anaerolineae	Anaerolineae	4.0	1.0	None
+kingdom	Main genome;Bacteria;Chloroflexi;KD4-96	KD4-96	None	None	None
+kingdom	Main genome;Bacteria;Chloroflexi;Gitt-GS-136	Gitt-GS-136	None	None	2.0
+kingdom	Main genome;Bacteria;Patescibacteria;Microgenomatia	Microgenomatia	1.0	None	None
+kingdom	Main genome;Bacteria;Patescibacteria;WWE3	WWE3	None	None	1.0
+kingdom	Main genome;Bacteria;Patescibacteria;Saccharimonadia	Saccharimonadia	3.0	None	10.0
+kingdom	Main genome;Bacteria;Planctomycetes;Planctomycetacia	Planctomycetacia	2.0	3.0	2.0
+kingdom	Main genome;Bacteria;Planctomycetes;Phycisphaerae	Phycisphaerae	None	None	9.0
+kingdom	Main genome;Bacteria;Planctomycetes;OM190	OM190	None	1.0	None
+kingdom	Main genome;Bacteria;Gemmatimonadetes;Gemmatimonadetes (kingdom)	Gemmatimonadetes (kingdom)	None	None	2.0
+kingdom	Main genome;Bacteria;Gemmatimonadetes;BD2-11 terrestrial group	BD2-11 terrestrial group	1.0	None	None
+kingdom	Main genome;Bacteria;Lentisphaerae;Oligosphaeria	Oligosphaeria	1.0	None	None
+kingdom	Main genome;Bacteria;Armatimonadetes;Fimbriimonadia	Fimbriimonadia	None	None	None
+kingdom	Main genome;Bacteria;Entotheonellaeota;Entotheonellia	Entotheonellia	None	1.0	1.0
+kingdom	Main genome;Archaea;Euryarchaeota;Thermoplasmata	Thermoplasmata	3.25	None	None
+kingdom	Main genome;Archaea;Crenarchaeota;Bathyarchaeia	Bathyarchaeia	1.0	None	None
+kingdom	Main genome;Archaea;Thaumarchaeota;Nitrososphaeria	Nitrososphaeria	None	None	None
+kingdom	Main genome;Archaea;Nanoarchaeaeota;Woesearchaeia	Woesearchaeia	1.0	None	None
+kingdom	Main genome;Archaea;Asgardaeota;Lokiarchaeia	Lokiarchaeia	1.0	None	None
+kingdom	Chloroplast;Bacteria (Chloroplast);Cyanobacteria (Chloroplast);Oxyphotobacteria (Chloroplast)	Oxyphotobacteria (Chloroplast)	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Pseudomonadales	None	None	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Betaproteobacteriales	Betaproteobacteriales	None	None	2.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales	Oceanospirillales	None	None	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales	Cellvibrionales	4.0	None	2.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Xanthomonadales	None	None	4.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Thiotrichales	Thiotrichales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Chromatiales	None	1.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales	Ectothiorhodospirales	1.0	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;KI89A clade	KI89A clade	1.0	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales	Nitrosococcales	None	2.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;UBA10353 marine group	UBA10353 marine group	1.0	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Steroidobacterales	Steroidobacterales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;B2M28	B2M28	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Tenderiales	Tenderiales	None	None	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Thiohalorhabdales	Thiohalorhabdales	None	1.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;HOC36	HOC36	1.0	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;PLTA13	PLTA13	1.0	None	2.0
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;CCM19a	CCM19a	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Run-SP154	Run-SP154	1.0	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Rhizobiales	3.5	5.5	8.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Caulobacterales	None	None	5.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Sphingomonadales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Rhodobacterales	5.0	1.0	9.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales	Azospirillales	None	None	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Rhodospirillales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Acetobacterales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales	Reyranellales	None	None	2.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Thalassobaculales	Thalassobaculales	None	2.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodovibrionales	Rhodovibrionales	None	4.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Tistrellales	Tistrellales	None	None	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Dongiales	Dongiales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales	Myxococcales	None	1.0	1.0
+phylum	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales	Desulfuromonadales	None	None	None
+phylum	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales	Desulfobacterales	3.0	1.0	None
+phylum	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;NB1-j	NB1-j	None	1.0	1.0
+phylum	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Streptosporangiales	Streptosporangiales	None	None	1.0
+phylum	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Micromonosporales	Micromonosporales	None	None	1.0
+phylum	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Micrococcales	Micrococcales	None	None	None
+phylum	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Frankiales	Frankiales	None	None	2.0
+phylum	Main genome;Bacteria;Actinobacteria;Coriobacteriia;OPB41	OPB41	None	None	1.0
+phylum	Main genome;Bacteria;Actinobacteria;Thermoleophilia;Gaiellales	Gaiellales	None	None	None
+phylum	Main genome;Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales	Microtrichales	None	None	3.0
+phylum	Main genome;Bacteria;Actinobacteria;Acidimicrobiia;Actinomarinales	Actinomarinales	1.0	None	None
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Sphingobacteriales	Sphingobacteriales	3.0	None	3.0
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales	Flavobacteriales	8.0	3.5	9.0
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales	Bacteroidales	7.0	None	6.0
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales	Chitinophagales	9.0	1.0	12.0
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales	Cytophagales	5.0	None	10.5
+phylum	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidetes VC2.1 Bac22	Bacteroidetes VC2.1 Bac22	None	None	None
+phylum	Main genome;Bacteria;Firmicutes;Clostridia;Clostridiales	Clostridiales	2.0	None	None
+phylum	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales	Nostocales	None	3.0	None
+phylum	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Synechococcales	Synechococcales	2.0	None	None
+phylum	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales	Opitutales	1.0	None	None
+phylum	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales	Verrucomicrobiales	None	None	3.0
+phylum	Main genome;Bacteria;Nitrospirae;Nitrospira;Nitrospirales	Nitrospirales	None	None	1.0
+phylum	Main genome;Bacteria;Epsilonbacteraeota;Campylobacteria;Campylobacterales	Campylobacterales	None	None	None
+phylum	Main genome;Bacteria;Acidobacteria;Acidobacteriia;Solibacterales	Solibacterales	1.0	1.0	3.0
+phylum	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Blastocatellales	Blastocatellales	None	None	5.5
+phylum	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Pyrinomonadales	Pyrinomonadales	None	None	1.0
+phylum	Main genome;Bacteria;Chloroflexi;Dehalococcoidia;S085	S085	None	None	1.0
+phylum	Main genome;Bacteria;Chloroflexi;Dehalococcoidia;SAR202 clade	SAR202 clade	None	1.0	None
+phylum	Main genome;Bacteria;Chloroflexi;Dehalococcoidia;MSBL5	MSBL5	None	None	None
+phylum	Main genome;Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Anaerolineales	2.0	1.0	None
+phylum	Main genome;Bacteria;Chloroflexi;Anaerolineae;Caldilineales	Caldilineales	2.0	None	None
+phylum	Main genome;Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Saccharimonadales	3.0	None	10.0
+phylum	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Planctomycetales	Planctomycetales	1.0	None	None
+phylum	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Pirellulales	Pirellulales	1.0	3.0	2.0
+phylum	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Tepidisphaerales	Tepidisphaerales	None	None	8.0
+phylum	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales	Phycisphaerales	None	None	1.0
+phylum	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Pla1 lineage	Pla1 lineage	None	None	None
+phylum	Main genome;Bacteria;Gemmatimonadetes;Gemmatimonadetes (kingdom);Gemmatimonadales	Gemmatimonadales	None	None	2.0
+phylum	Main genome;Bacteria;Lentisphaerae;Oligosphaeria;Oligosphaerales	Oligosphaerales	1.0	None	None
+phylum	Main genome;Bacteria;Armatimonadetes;Fimbriimonadia;Fimbriimonadales	Fimbriimonadales	None	None	None
+phylum	Main genome;Bacteria;Entotheonellaeota;Entotheonellia;Entotheonellales	Entotheonellales	None	1.0	1.0
+phylum	Main genome;Archaea;Euryarchaeota;Thermoplasmata;Marine Benthic Group D and DHVEG-1	Marine Benthic Group D and DHVEG-1	2.5	None	None
+phylum	Main genome;Archaea;Thaumarchaeota;Nitrososphaeria;Nitrosopumilales	Nitrosopumilales	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Moraxellaceae	Moraxellaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Betaproteobacteriales;Burkholderiaceae	Burkholderiaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Betaproteobacteriales;Hydrogenophilaceae	Hydrogenophilaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Saccharospirillaceae	Saccharospirillaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Halieaceae	Halieaceae	4.0	None	2.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae	Xanthomonadaceae	None	None	3.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae	Rhodanobacteraceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Thiotrichales;Thiotrichaceae	Thiotrichaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales;Chromatiaceae	Chromatiaceae	None	1.0	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales;Ectothiorhodospiraceae	Ectothiorhodospiraceae	1.0	None	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Nitrosococcaceae	Nitrosococcaceae	None	2.0	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Steroidobacterales;Woeseiaceae	Woeseiaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Tenderiales;Tenderiaceae	Tenderiaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Thiohalorhabdales;Thiohalorhabdaceae	Thiohalorhabdaceae	None	1.0	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Methyloligellaceae	Methyloligellaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae	Xanthobacteraceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiales Incertae Sedis	Rhizobiales Incertae Sedis	1.0	None	2.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Devosiaceae	Devosiaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae	Hyphomicrobiaceae	None	2.0	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Parvularculaceae	Parvularculaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae	Caulobacteraceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae	Hyphomonadaceae	None	None	3.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae	Sphingomonadaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae	Rhodobacteraceae	5.0	1.0	9.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales;Azospirillaceae	Azospirillaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Magnetospiraceae	Magnetospiraceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacterales Incertae Sedis	Acetobacterales Incertae Sedis	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales;Reyranellaceae	Reyranellaceae	None	None	2.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodovibrionales;Kiloniellaceae	Kiloniellaceae	None	4.0	None
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Tistrellales;Geminicoccaceae	Geminicoccaceae	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Dongiales;Dongiaceae	Dongiaceae	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;BIrii41	BIrii41	None	None	1.0
+class	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Sandaracinaceae	Sandaracinaceae	None	1.0	None
+class	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Sva1033	Sva1033	None	None	None
+class	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales;Desulfobacteraceae	Desulfobacteraceae	1.0	1.0	None
+class	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales;Desulfobulbaceae	Desulfobulbaceae	2.0	None	None
+class	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Streptosporangiales;Streptosporangiaceae	Streptosporangiaceae	None	None	1.0
+class	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Micromonosporales;Micromonosporaceae	Micromonosporaceae	None	None	1.0
+class	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Micrococcales;Promicromonosporaceae	Promicromonosporaceae	None	None	None
+class	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Frankiales;Geodermatophilaceae	Geodermatophilaceae	None	None	1.0
+class	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Frankiales;Cryptosporangiaceae	Cryptosporangiaceae	None	None	1.0
+class	Main genome;Bacteria;Actinobacteria;Thermoleophilia;Gaiellales;Gaiellaceae	Gaiellaceae	None	None	None
+class	Main genome;Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Microtrichaceae	Microtrichaceae	None	None	1.0
+class	Main genome;Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae	Ilumatobacteraceae	None	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Sphingobacteriales;Lentimicrobiaceae	Lentimicrobiaceae	3.0	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Sphingobacteriales;AKYH767	AKYH767	None	None	2.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Sphingobacteriales;NS11-12 marine group	NS11-12 marine group	None	None	1.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae	Flavobacteriaceae	None	3.5	6.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Crocinitomicaceae	Crocinitomicaceae	None	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Cryomorphaceae	Cryomorphaceae	1.0	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;NS9 marine group	NS9 marine group	None	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Prolixibacteraceae	Prolixibacteraceae	3.0	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidetes vadinHA17	Bacteroidetes vadinHA17	None	None	1.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidetes BD2-2	Bacteroidetes BD2-2	3.0	None	2.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Marinilabiliaceae	Marinilabiliaceae	1.0	None	1.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;SB-5	SB-5	None	None	1.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Chitinophagaceae	Chitinophagaceae	None	None	4.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae	Saprospiraceae	9.0	1.0	7.0
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae	Cyclobacteriaceae	None	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Spirosomaceae	Spirosomaceae	None	None	None
+class	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Microscillaceae	Microscillaceae	None	None	None
+class	Main genome;Bacteria;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae	Ruminococcaceae	1.0	None	None
+class	Main genome;Bacteria;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae	Lachnospiraceae	1.0	None	None
+class	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Xenococcaceae	Xenococcaceae	None	3.0	None
+class	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Synechococcales;Cyanobiaceae	Cyanobiaceae	2.0	None	None
+class	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Rubritaleaceae	Rubritaleaceae	None	None	2.0
+class	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;DEV007	DEV007	None	None	1.0
+class	Main genome;Bacteria;Nitrospirae;Nitrospira;Nitrospirales;Nitrospiraceae	Nitrospiraceae	None	None	1.0
+class	Main genome;Bacteria;Epsilonbacteraeota;Campylobacteria;Campylobacterales;Sulfurovaceae	Sulfurovaceae	None	None	None
+class	Main genome;Bacteria;Acidobacteria;Acidobacteriia;Solibacterales;Solibacteraceae (Subgroup 3)	Solibacteraceae (Subgroup 3)	1.0	1.0	3.0
+class	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Blastocatellales;Blastocatellaceae	Blastocatellaceae	None	None	5.5
+class	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Pyrinomonadales;Pyrinomonadaceae	Pyrinomonadaceae	None	None	1.0
+class	Main genome;Bacteria;Chloroflexi;Anaerolineae;Anaerolineales;Anaerolineaceae	Anaerolineaceae	2.0	1.0	None
+class	Main genome;Bacteria;Chloroflexi;Anaerolineae;Caldilineales;Caldilineaceae	Caldilineaceae	2.0	None	None
+class	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Planctomycetales;Gimesiaceae	Gimesiaceae	1.0	None	None
+class	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Pirellulales;Pirellulaceae	Pirellulaceae	1.0	3.0	2.0
+class	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Tepidisphaerales;WD2101 soil group	WD2101 soil group	None	None	8.0
+class	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales;Phycisphaeraceae	Phycisphaeraceae	None	None	1.0
+class	Main genome;Bacteria;Gemmatimonadetes;Gemmatimonadetes (kingdom);Gemmatimonadales;Gemmatimonadaceae	Gemmatimonadaceae	None	None	2.0
+class	Main genome;Bacteria;Lentisphaerae;Oligosphaeria;Oligosphaerales;Oligosphaeraceae	Oligosphaeraceae	1.0	None	None
+class	Main genome;Bacteria;Armatimonadetes;Fimbriimonadia;Fimbriimonadales;Fimbriimonadaceae	Fimbriimonadaceae	None	None	None
+class	Main genome;Bacteria;Entotheonellaeota;Entotheonellia;Entotheonellales;Entotheonellaceae	Entotheonellaceae	None	1.0	1.0
+class	Main genome;Archaea;Thaumarchaeota;Nitrososphaeria;Nitrosopumilales;Nitrosopumilaceae	Nitrosopumilaceae	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Moraxellaceae;Acinetobacter	Acinetobacter	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Betaproteobacteriales;Hydrogenophilaceae;Thiobacillus	Thiobacillus	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Saccharospirillaceae;Saccharospirillum	Saccharospirillum	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Halieaceae;Halioglobus	Halioglobus	2.0	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Halieaceae;OM60(NOR5) clade	OM60(NOR5) clade	1.0	None	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Arenimonas	Arenimonas	None	None	3.0
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales;Chromatiaceae;Candidatus Thiobios	Candidatus Thiobios	None	1.0	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales;Ectothiorhodospiraceae;Thiogranum	Thiogranum	1.0	None	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Nitrosococcaceae;AqS1	AqS1	None	1.0	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Nitrosococcaceae;FS142-36B-02	FS142-36B-02	None	1.0	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Steroidobacterales;Woeseiaceae;Woeseia	Woeseia	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Gammaproteobacteria;Tenderiales;Tenderiaceae;Candidatus Tenderia	Candidatus Tenderia	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiales Incertae Sedis;Anderseniella	Anderseniella	1.0	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Devosiaceae;Devosia	Devosia	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Filomicrobium	Filomicrobium	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Parvularculaceae;Amphiplicatus	Amphiplicatus	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Brevundimonas	Brevundimonas	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae;Hirschia	Hirschia	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae;Hyphomonas	Hyphomonas	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingorhabdus	Sphingorhabdus	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseovarius	Roseovarius	1.0	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseobacter	Roseobacter	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Silicimonas	Silicimonas	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Ketogulonicigenium	Ketogulonicigenium	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Tabrizicola	Tabrizicola	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales;Azospirillaceae;Skermanella	Skermanella	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales;Reyranellaceae;Reyranella	Reyranella	None	None	1.0
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodovibrionales;Kiloniellaceae;Pelagibius	Pelagibius	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodovibrionales;Kiloniellaceae;Tistlia	Tistlia	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Alphaproteobacteria;Dongiales;Dongiaceae;Dongia	Dongia	None	None	None
+order	Main genome;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales;Desulfobacteraceae;SEEP-SRB1	SEEP-SRB1	1.0	None	None
+order	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Streptosporangiales;Streptosporangiaceae;Sphaerisporangium	Sphaerisporangium	None	None	1.0
+order	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Micrococcales;Promicromonosporaceae;Promicromonospora	Promicromonospora	None	None	None
+order	Main genome;Bacteria;Actinobacteria;Actinobacteria (kingdom);Frankiales;Cryptosporangiaceae;Fodinicola	Fodinicola	None	None	1.0
+order	Main genome;Bacteria;Actinobacteria;Thermoleophilia;Gaiellales;Gaiellaceae;Gaiella	Gaiella	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Robertkochia	Robertkochia	None	None	1.0
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Aquibacter	Aquibacter	None	1.0	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Hyunsoonleella	Hyunsoonleella	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Zeaxanthinibacter	Zeaxanthinibacter	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Robiginitalea	Robiginitalea	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Joostella	Joostella	None	None	1.0
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Actibacter	Actibacter	None	None	2.0
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Seonamhaeicola	Seonamhaeicola	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Crocinitomicaceae;Fluviicola	Fluviicola	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Cryomorphaceae;Owenweeksia	Owenweeksia	1.0	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Marinilabiliaceae;[Cytophaga] xylanolytica group	[Cytophaga] xylanolytica group	None	None	1.0
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Chitinophagaceae;Terrimonas	Terrimonas	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Chitinophagaceae;UTBCD1	UTBCD1	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae;Portibacter	Portibacter	1.0	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae;Algoriphagus	Algoriphagus	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Spirosomaceae;Lacihabitans	Lacihabitans	None	None	None
+order	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Microscillaceae;Chryseolinea	Chryseolinea	None	None	None
+order	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Xenococcaceae;Pleurocapsa PCC-7319	Pleurocapsa PCC-7319	None	None	None
+order	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Xenococcaceae;Chroococcidiopsis PCC-6712	Chroococcidiopsis PCC-6712	None	1.0	None
+order	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Xenococcaceae;Xenococcus PCC-7305	Xenococcus PCC-7305	None	None	None
+order	Main genome;Bacteria;Cyanobacteria;Oxyphotobacteria;Synechococcales;Cyanobiaceae;Cyanobium PCC-6307	Cyanobium PCC-6307	2.0	None	None
+order	Main genome;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Rubritaleaceae;Luteolibacter	Luteolibacter	None	None	2.0
+order	Main genome;Bacteria;Nitrospirae;Nitrospira;Nitrospirales;Nitrospiraceae;Nitrospira (Nitrospiraceae)	Nitrospira (Nitrospiraceae)	None	None	1.0
+order	Main genome;Bacteria;Epsilonbacteraeota;Campylobacteria;Campylobacterales;Sulfurovaceae;Sulfurovum	Sulfurovum	None	None	None
+order	Main genome;Bacteria;Acidobacteria;Acidobacteriia;Solibacterales;Solibacteraceae (Subgroup 3);PAUC26f	PAUC26f	1.0	1.0	3.0
+order	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Blastocatellales;Blastocatellaceae;Blastocatella	Blastocatella	None	None	None
+order	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Blastocatellales;Blastocatellaceae;JGI 0001001-H03	JGI 0001001-H03	None	None	1.0
+order	Main genome;Bacteria;Acidobacteria;Blastocatellia (Subgroup 4);Pyrinomonadales;Pyrinomonadaceae;RB41	RB41	None	None	1.0
+order	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Pirellulales;Pirellulaceae;Pirellula	Pirellula	None	None	1.0
+order	Main genome;Bacteria;Planctomycetes;Planctomycetacia;Pirellulales;Pirellulaceae;Blastopirellula	Blastopirellula	1.0	3.0	None
+order	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales;Phycisphaeraceae;CL500-3	CL500-3	None	None	None
+order	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales;Phycisphaeraceae;AKYG587	AKYG587	None	None	1.0
+order	Main genome;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales;Phycisphaeraceae;Urania-1B-19 marine sediment group	Urania-1B-19 marine sediment group	None	None	None
+order	Main genome;Bacteria;Lentisphaerae;Oligosphaeria;Oligosphaerales;Oligosphaeraceae;SBZC-1223	SBZC-1223	1.0	None	None
+order	Main genome;Bacteria;Entotheonellaeota;Entotheonellia;Entotheonellales;Entotheonellaceae;Candidatus Entotheonella	Candidatus Entotheonella	None	1.0	1.0
+family	Main genome;Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Robertkochia;Robertkochia marina	Robertkochia marina	None	None	1.0

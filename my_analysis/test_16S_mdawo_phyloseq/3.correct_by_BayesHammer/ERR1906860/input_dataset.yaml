@@ -1,0 +1,6 @@
+- "left reads":
+  - "/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906860_1.fastq.gz.1P.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906860_2.fastq.gz.2P.fastq.gz"
+  "type": "paired-end"

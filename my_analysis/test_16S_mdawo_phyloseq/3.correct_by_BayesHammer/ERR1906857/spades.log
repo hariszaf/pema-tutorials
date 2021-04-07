@@ -1,0 +1,142 @@
+Command line: /home/tools/SPAdes/SPAdes-3.14.0/bin/spades.py	--only-error-correction	--threads	20	-o	/mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857	-1	/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_1.fastq.gz.1P.fastq.gz	-2	/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_2.fastq.gz.2P.fastq.gz	--disable-gzip-output	
+
+System information:
+  SPAdes version: 3.14.0
+  Python version: 2.7.12
+  OS: Linux-4.9.0-3-amd64-x86_64-with-Ubuntu-16.04-xenial
+
+Output dir: /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857
+Mode: ONLY read error correction (without assembling)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_1.fastq.gz.1P.fastq.gz']
+      right reads: ['/mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_2.fastq.gz.2P.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will NOT be compressed
+Other parameters:
+  Dir for temp files: /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/tmp
+  Threads: 20
+  Memory limit (in Gb): 125
+
+
+======= SPAdes pipeline started. Log can be found here: /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/spades.log
+
+
+===== Read error correction started. 
+
+
+===== Read error correction started. 
+
+
+== Running: /home/tools/SPAdes/SPAdes-3.14.0/bin/spades-hammer /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected/configs/config.info
+
+  0:00:00.000     5M / 14M   INFO    General                 (main.cpp                  :  75)   Starting BayesHammer, built from N/A, git revision N/A
+  0:00:00.000     5M / 14M   INFO    General                 (main.cpp                  :  76)   Loading config from /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected/configs/config.info
+  0:00:00.003     5M / 14M   INFO    General                 (main.cpp                  :  78)   Maximum # of threads to use (adjusted due to OMP capabilities): 20
+  0:00:00.003     5M / 14M   INFO    General                 (memory_limit.cpp          :  49)   Memory limit set to 125 Gb
+  0:00:00.003     5M / 14M   INFO    General                 (main.cpp                  :  86)   Trying to determine PHRED offset
+  0:00:00.006     5M / 14M   INFO    General                 (main.cpp                  :  92)   Determined value is 33
+  0:00:00.008     5M / 14M   INFO    General                 (hammer_tools.cpp          :  38)   Hamming graph threshold tau=1, k=21, subkmer positions = [ 0 10 ]
+  0:00:00.008     5M / 14M   INFO    General                 (main.cpp                  : 113)   Size of aux. kmer data 24 bytes
+     === ITERATION 0 begins ===
+  0:00:00.014     5M / 14M   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 301)   Building kmer index
+  0:00:00.014     5M / 14M   INFO    General                 (kmer_index_builder.hpp    : 117)   Splitting kmer instances into 320 files using 20 threads. This might take a while.
+  0:00:00.016     6M / 14M   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 4096
+  0:00:00.016     6M / 14M   INFO    General                 (kmer_splitters.hpp        :  89)   Memory available for splitting buffers: 2.08332 Gb
+  0:00:00.016     6M / 14M   INFO    General                 (kmer_splitters.hpp        :  97)   Using cell size of 209715
+  0:00:00.041    13G / 13G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_1.fastq.gz.1P.fastq.gz
+  0:00:02.065    13G / 13G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 107967 reads
+  0:00:02.066    13G / 13G   INFO   K-mer Splitting          (kmer_data.cpp             :  97)   Processing /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_2.fastq.gz.2P.fastq.gz
+  0:00:03.588    13G / 13G   INFO   K-mer Splitting          (kmer_data.cpp             : 107)   Processed 215934 reads
+  0:00:03.590    13G / 13G   INFO   K-mer Splitting          (kmer_data.cpp             : 112)   Total 215934 reads processed
+  0:00:03.656   294M / 418M  INFO    General                 (kmer_index_builder.hpp    : 120)   Starting k-mer counting.
+  0:00:04.808   294M / 418M  INFO    General                 (kmer_index_builder.hpp    : 127)   K-mer counting done. There are 3001024 kmers in total.
+  0:00:04.809   294M / 418M  INFO    General                 (kmer_index_builder.hpp    : 133)   Merging temporary buckets.
+  0:00:05.672   294M / 418M  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 314)   Building perfect hash indices
+  0:00:05.783   284M / 418M  INFO    General                 (kmer_index_builder.hpp    : 150)   Merging final buckets.
+  0:00:05.975   284M / 418M  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 336)   Index built. Total 1399952 bytes occupied (3.73193 bits per kmer).
+  0:00:05.980   284M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 351)   Arranging kmers in hash map order
+  0:00:06.166   332M / 418M  INFO    General                 (main.cpp                  : 148)   Clustering Hamming graph.
+  0:00:07.202   332M / 418M  INFO    General                 (main.cpp                  : 155)   Extracting clusters
+  0:00:08.236   308M / 418M  INFO    General                 (main.cpp                  : 167)   Clustering done. Total clusters: 950112
+  0:00:08.239   284M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 371)   Collecting K-mer information, this takes a while.
+  0:00:08.286   364M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_1.fastq.gz.1P.fastq.gz
+  0:00:09.313   330M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 377)   Processing /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_2.fastq.gz.2P.fastq.gz
+  0:00:09.937   305M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 384)   Collection done, postprocessing.
+  0:00:09.949   305M / 418M  INFO   K-mer Counting           (kmer_data.cpp             : 398)   There are 3001024 kmers in total. Among them 1706138 (56.8519%) are singletons.
+  0:00:09.950   305M / 418M  INFO    General                 (main.cpp                  : 173)   Subclustering Hamming graph
+  0:00:25.208   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 649)   Subclustering done. Total 228 non-read kmers were generated.
+  0:00:25.210   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 650)   Subclustering statistics:
+  0:00:25.211   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 651)     Total singleton hamming clusters: 805086. Among them 386910 (48.0582%) are good
+  0:00:25.212   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 652)     Total singleton subclusters: 20082. Among them 20042 (99.8008%) are good
+  0:00:25.213   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 653)     Total non-singleton subcluster centers: 237738. Among them 201551 (84.7786%) are good
+  0:00:25.214   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 654)     Average size of non-trivial subcluster: 9.23999 kmers
+  0:00:25.215   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 655)     Average number of sub-clusters per non-singleton cluster: 1.77775
+  0:00:25.216   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 656)     Total solid k-mers: 608503
+  0:00:25.217   277M / 418M  INFO   Hamming Subclustering    (kmer_cluster.cpp          : 657)     Substitution probabilities: [4,4]((0.903019,0.0297879,0.0390448,0.0281481),(0.0266771,0.911518,0.0191085,0.0426965),(0.0423543,0.0187223,0.911705,0.0272183),(0.0275427,0.0378924,0.0294006,0.905164))
+  0:00:25.222   277M / 418M  INFO    General                 (main.cpp                  : 178)   Finished clustering.
+  0:00:25.223   277M / 418M  INFO    General                 (main.cpp                  : 197)   Starting solid k-mers expansion in 20 threads.
+  0:00:26.252   233M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 0 produced 409668 new k-mers.
+  0:00:27.131   233M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 1 produced 66533 new k-mers.
+  0:00:28.006   233M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 2 produced 8043 new k-mers.
+  0:00:28.881   233M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 3 produced 1090 new k-mers.
+  0:00:29.757   227M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 4 produced 57 new k-mers.
+  0:00:30.633   227M / 418M  INFO    General                 (main.cpp                  : 218)   Solid k-mers iteration 5 produced 0 new k-mers.
+  0:00:30.634   227M / 418M  INFO    General                 (main.cpp                  : 222)   Solid k-mers finalized
+  0:00:30.635   227M / 418M  INFO    General                 (hammer_tools.cpp          : 222)   Starting read correction in 20 threads.
+  0:00:30.635   227M / 418M  INFO    General                 (hammer_tools.cpp          : 235)   Correcting pair of reads: /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_1.fastq.gz.1P.fastq.gz and /mnt/analysis/test_16S_mdawo_phyloseq/2.trimmomatic_output/filtered_max_ERR1906857_2.fastq.gz.2P.fastq.gz
+  0:00:31.673   762M / 762M  INFO    General                 (hammer_tools.cpp          : 170)   Prepared batch 0 of 107967 reads.
+  0:00:32.412   693M / 708M  INFO    General                 (hammer_tools.cpp          : 177)   Processed batch 0
+  0:00:32.653   693M / 708M  INFO    General                 (hammer_tools.cpp          : 187)   Written batch 0
+  0:00:33.073   245M / 708M  INFO    General                 (hammer_tools.cpp          : 276)   Correction done. Changed 39973 bases in 22758 reads.
+  0:00:33.075   245M / 708M  INFO    General                 (hammer_tools.cpp          : 277)   Failed to correct 183 bases out of 37639994.
+  0:00:33.087   141M / 708M  INFO    General                 (main.cpp                  : 255)   Saving corrected dataset description to /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected/corrected.yaml
+  0:00:33.091   142M / 708M  INFO    General                 (main.cpp                  : 262)   All done. Exiting.
+
+===== Read error correction finished. 
+
+
+===== corrected reads compression started. 
+
+
+== Running: /usr/bin/python /home/tools/SPAdes/SPAdes-3.14.0/share/spades/spades_pipeline/scripts/compress_all.py --input_file /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected/corrected.yaml --ext_python_modules_home /home/tools/SPAdes/SPAdes-3.14.0/share/spades --max_threads 20 --output_dir /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected
+
+
+===== corrected reads compression finished. 
+
+
+===== Read error correction finished. 
+
+
+===== Breaking scaffolds started. 
+
+
+== Running: /usr/bin/python /home/tools/SPAdes/SPAdes-3.14.0/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py --result_scaffolds_filename /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/scaffolds.fasta --misc_dir /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/misc --threshold_for_breaking_scaffolds 3
+
+
+===== Breaking scaffolds finished. 
+
+
+===== Terminate started. 
+
+
+===== Terminate finished. 
+
+ * Corrected reads are in /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/corrected/
+
+======= SPAdes pipeline finished.
+
+SPAdes log can be found here: /mnt/analysis/test_16S_mdawo_phyloseq/3.correct_by_BayesHammer/ERR1906857/spades.log
+
+Thank you for using SPAdes!
