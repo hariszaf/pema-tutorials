@@ -4,7 +4,7 @@
 
 Here you can find all the relative material from the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021. 
 
-The Pipeline for Environmental DNA Metabarcoding Analysis (PEMA) ([*Zafeiropoulos et. al* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
+The Pipeline for Environmental DNA Metabarcoding Analysis (PEMA) ([*Zafeiropoulos et al.* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
 supports the complete analysis of 4 marker genes: 16S/18S rRNA, ITS and COI.
 In its latest version a new module was added to enable the use of custom reference databases. 
 
