@@ -33,7 +33,7 @@ To contact PEMA team you can find us at:
 
 
 ## About me
-My name is Haris and I am a PhD candidate at [University of Crete, Greece](http://biology.uoc.gr/) and at the [Institute of Marine Biology, Biotechnology and Aquaculture (IMBBC)](https://imbbc.hcmr.gr/) focusing on ecosystem functioning and microbial interactions via computational methods.
+My name is Haris Zafeiropoulos and I am a PhD candidate at [University of Crete, Greece](http://biology.uoc.gr/) and at the [Institute of Marine Biology, Biotechnology and Aquaculture (IMBBC)](https://imbbc.hcmr.gr/) focusing on ecosystem functioning and microbial interactions via computational methods.
 
 [Here](https://hariszaf.github.io/) you may find more about me and you can contact me at
 [haris-zaf@hcmr.gr](haris-zaf@hcmr.gr).
