@@ -1,0 +1,11 @@
+#!/bin/bash -l
+#PBS -A lp_h_mdaw
+#PBS -l nodes=1:ppn=6
+#PBS -l walltime=01:00:00
+#PBS -l pmem=5gb
+#PBS -m ae
+#PBS -M haris-zaf@hcmr.gr
+  
+# Command for PEMA
+singularity run -B /scratch/leuven/341/vsc34189/mdawo/:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
+
