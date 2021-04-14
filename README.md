@@ -21,7 +21,7 @@ and we would be able to find out what else is great there besides the pralines.
 The sure thing though: great talks, great software, great people!  
 
 Many thanks to [Dr. Sofie Thijs](https://www.linkedin.com/in/sofiethijs/?originalSubdomain=be) for the chance of presenting 
-[PEMA]() to such an event! 
+[PEMA](http://pema.hcmr.gr/) to such an event! 
 
 
 
