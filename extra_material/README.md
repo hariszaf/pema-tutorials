@@ -13,7 +13,8 @@ a new PEMA analysis including both the initial and the samples stored here, thei
 1. Download the `pema-mdawo` repository. <br/>
 You can either `git pull https://github.com/hariszaf/pema-mdawo.git`  <br/>
 or download it as a `.zip` file.
-
+In case you do the latter, unzip the file to get access to its contents. 
+The size of the `.zip` is 549.1 MB.
 
 2. Add the extra samples located at the `extra_material` directory. 
 
@@ -40,7 +41,7 @@ or download it as a `.zip` file.
    * Move down to Section 2; this is where the `div_indices.csv` file we saw earlier is built. 
    You can remove it, change its name, ask for less or more etc 
    * Finally, move down to Section 3 where the various plots are built. <br />
-   Change the names as you would like t
+   Change the names as you would like to
 
 
 5. Edit the `metadata.csv` script

@@ -1,17 +1,46 @@
 # Microbiome Data Analyses Workshop - Online (MDAWO)
 
-## A PEMA Hands-on for 16S rRNA data
+## PEMA: A Pipeline for Environnmental DNA Metabarcoding Analysis 
 
-Here you can find all the relative material from the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021. 
-
-The Pipeline for Environmental DNA Metabarcoding Analysis (PEMA) ([*Zafeiropoulos et al.* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
+PEMA ([*Zafeiropoulos et al.* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
 supports the complete analysis of 4 marker genes: 16S/18S rRNA, ITS and COI.
 In its latest version a new module was added to enable the use of custom reference databases. 
 
 You may find more about PEMA on its [documentation site](http://pema.hcmr.gr/)
 but also on its [GitHub repo](https://github.com/hariszaf/pema). 
 
-If you're interested in contributing at the code level, you may have a look [here](https://github.com/hariszaf/pema/blob/master/CONTRIBUTING.md).
+
+## Hands-on 
+
+In this repository (repo), you can find all the relative material for the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021.
+
+The slides presentation is available as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing)/
+
+
+We strongly suggest to get this repo on your personal computer (local machine), **before** 
+the workshop. 
+To do so, there are 2 ways. 
+Click on the green `Code` button and then: 
+* You can download this repo as a `.zip` file (~541MB so it will take a while)
+* You may clone the repo by copying the `url` you see and run in a termial the following command:
+   ```
+   git clone https://github.com/hariszaf/pema-mdawo.git
+   ```  
+
+-----------------------
+**Optional!**<br/>
+`git` is a powerfull distributed version control system tool
+If interested, you may download `git` by following the instructions 
+[here](https://www.atlassian.com/git/tutorials/install-git). 
+
+-----------------------
+
+
+Once you have the repository locally, you may follow the instructions described 
+in the `MDAW0_hands_on.md` file. 
+
+
+
 
 
 <img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
@@ -26,8 +55,17 @@ Many thanks to [Dr. Sofie Thijs](https://www.linkedin.com/in/sofiethijs/?origina
 
 
 
+
+
+## PEMA as an open source project
+
+👍🥳💯
+If you're interested in contributing at the code level, you may have a look [here](https://github.com/hariszaf/pema/blob/master/CONTRIBUTING.md).
+💯
+
+
 To contact PEMA team you can find us at: 
-pema@hcmr.gr.
+pema@hcmr.gr or through [PEMA's Gitter community](https://gitter.im/pema-helpdesk/community).
 
 
 <img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 250px; />
