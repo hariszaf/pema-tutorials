@@ -14,7 +14,7 @@ but also on its [GitHub repo](https://github.com/hariszaf/pema).
 
 In this repository (repo), you can find all the relative material for the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021.
 
-The slides presentation is available as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing)/
+The presentation is available as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing).
 
 
 We strongly suggest to get this repo on your personal computer (local machine), **before** 
@@ -35,12 +35,8 @@ If interested, you may download `git` by following the instructions
 
 -----------------------
 
-
 Once you have the repository locally, you may follow the instructions described 
 in the `MDAW0_hands_on.md` file. 
-
-
-
 
 
 <img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
