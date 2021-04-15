@@ -2,6 +2,11 @@
 
 ## PEMA: A Pipeline for Environnmental DNA Metabarcoding Analysis 
 
+
+
+<img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 200px; align="left"  />
+
+<br/><br/>
 PEMA ([*Zafeiropoulos et al.* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
 supports the complete analysis of 4 marker genes: 16S/18S rRNA, ITS and COI.
 In its latest version a new module was added to enable the use of custom reference databases. 
@@ -9,6 +14,8 @@ In its latest version a new module was added to enable the use of custom referen
 You may find more about PEMA on its [documentation site](http://pema.hcmr.gr/)
 but also on its [GitHub repo](https://github.com/hariszaf/pema). 
 
+
+<br/>
 
 ## Hands-on 
 
@@ -52,9 +59,6 @@ The sure thing though: great talks, great software, great people!
 Many thanks to [Dr. Sofie Thijs](https://www.linkedin.com/in/sofiethijs/?originalSubdomain=be) for the chance of presenting 
 [PEMA](http://pema.hcmr.gr/) to such an event! 
 
-
-
-<img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 250px; />
 
 
 ## PEMA as an open source project
