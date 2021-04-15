@@ -6,6 +6,7 @@
 ## PEMA: A Pipeline for Environnmental DNA Metabarcoding Analysis 
 
 <br/>
+
 PEMA ([*Zafeiropoulos et al.* 2020](https://academic.oup.com/gigascience/article/9/3/giaa022/5803335))
 supports the complete analysis of 4 marker genes: 16S/18S rRNA, ITS and COI.
 In its latest version a new module was added to enable the use of custom reference databases. 
@@ -14,7 +15,7 @@ You may find more about PEMA on its [documentation site](http://pema.hcmr.gr/)
 but also on its [GitHub repo](https://github.com/hariszaf/pema). 
 
 
-<br/><br/>
+<br/>
 
 ## Hands-on 
 
