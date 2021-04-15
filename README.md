@@ -27,7 +27,7 @@ Click on the green `Code` button and then:
    git clone https://github.com/hariszaf/pema-mdawo.git
    ```  
 
------------------------
+
 **Optional!**<br/>
 `git` is a powerfull distributed version control system tool
 If interested, you may download `git` by following the instructions 
@@ -39,6 +39,7 @@ If interested, you may download `git` by following the instructions
 in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file.** 
 💯
 
+-----------------------
 
 ## Thank you MDAWO! 
 <img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
