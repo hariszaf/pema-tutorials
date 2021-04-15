@@ -109,13 +109,12 @@ The size of the `.zip` is 549.1 MB.
 
 Now you just need to wait for PEMA to run your analysis. 
 
-Im the meanwhile you may have a thorough look on the `parameters.tsv` file
+In the meanwhile you may have a thorough look on the [`parameters.tsv`](https://github.com/hariszaf/pema-mdawo/blob/main/my_analysis/parameters.tsv) file
 and all the parameters there. 
-
 As already mentioned this is the key-bone of PEMA as it allows the user to 
 specify exactly what it takes to tune the best way an analysis. 
 
-It is strongly suggested to visit the documentation sites of the tools invoked 
+We strongly suggest to visit the documentation sites of the tools invoked, 
 for a thourough description of the parameters. 
 
 
