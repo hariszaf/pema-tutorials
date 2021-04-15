@@ -36,9 +36,10 @@ If interested, you may download `git` by following the instructions
 -----------------------
 
 Once you have the repository locally, you may follow the instructions described 
-in the `MDAW0_hands_on.md` file. 
+in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file. 
 
 
+## Thank you MDAWO! 
 <img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
 If it was not for the Covid-19 situation, MDAWO would take place in Belgium at the University of Hasselt
 and we would be able to find out what else is great there besides the pralines. 
@@ -51,6 +52,7 @@ Many thanks to [Dr. Sofie Thijs](https://www.linkedin.com/in/sofiethijs/?origina
 
 
 
+<img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 250px; />
 
 
 ## PEMA as an open source project
@@ -64,7 +66,6 @@ To contact PEMA team you can find us at:
 pema@hcmr.gr or through [PEMA's Gitter community](https://gitter.im/pema-helpdesk/community).
 
 
-<img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 250px; />
 
 
 ## About me

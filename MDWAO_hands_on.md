@@ -1,14 +1,44 @@
 # PEMA hands-on @ MDAWO
 
-In this folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those 
-we have already run in the first part of the hands-on. 
+## The `my_analysis` directory
+
+In the [`my_analysis`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis) directory you will find the exact input we used to run the first PEMA analysis on the VSC cluster. 
+
+In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) folder, you will find 6 `.fastq.gz` samples coming from 3 paired-end samples. 
+
+
+🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to stay always like this!
+
+
+
+## The `extra_material` directory
+
+In the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those we have already run in the first part of the hands-on. 
 
 You will also find a `.csv` file called `extra_metadata.csv`. 
 
+This directory is just for you to practice, as a simulation of how you would set up 
+a PEMA analysis. It has nothing to do with the PEMA actual code. 
 
-The aim is to follow the instructions on the presentation (or you may see below) and run 
-a new PEMA analysis including both the initial and the samples stored here, their metadata as well.  
 
+-------------------
+
+Many thanks to Dr. Christina Pavloudi for providing us with both data and their corresponding metadata.
+You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/browser/view/PRJEB20211).
+
+
+## Run your own analysis! 
+
+Our goal is to set everything needed for a PEMA analysis. 
+
+As raw data, we will use both the samples used in the initial run (already in the `mydata` folder) but also those stored in the `extra_material` directory.  
+The same applies for their corresponding metadata too. 
+
+Therefore, once our analysis is complete, we will have an OTUs/ASVs table of 6 samples. <br/>
+Let' start.
+
+
+### Step-by-step
 
 1. Download the `pema-mdawo` repository. <br/>
 You can either `git pull https://github.com/hariszaf/pema-mdawo.git`  <br/>
@@ -88,7 +118,4 @@ specify exactly what it takes to tune the best way an analysis.
 It is strongly suggested to visit the documentation sites of the tools invoked 
 for a thourough description of the parameters. 
 
--------------------
 
-Many thanks to Dr. Christina Pavloudi for providing us with both data and their corresponding metadata.
-You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/browser/view/PRJEB20211).
