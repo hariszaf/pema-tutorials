@@ -10,13 +10,18 @@ The aim is to follow the instructions on the presentation (or you may see below)
 a new PEMA analysis including both the initial and the samples stored here, their metadata as well.  
 
 
-1. Download the `pema-mdawo` repository. 
-You can either `git pull https://github.com/hariszaf/pema-mdawo.git` or download it as a `.zip` file.
+1. Download the `pema-mdawo` repository. <br/>
+You can either `git pull https://github.com/hariszaf/pema-mdawo.git`  <br/>
+or download it as a `.zip` file.
 
 
 
 2. Add the extra samples located at the `extra_material` directory. 
 
+* Open the repository and enter the extra_material directory
+* Cut all the .fastq.gz files from there
+* Move back and enter the my_analysis directory and then to the mydata
+* And paste the fastq.gz files here
 
 
 
