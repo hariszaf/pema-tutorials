@@ -34,9 +34,10 @@ If interested, you may download `git` by following the instructions
 [here](https://www.atlassian.com/git/tutorials/install-git). 
 
 -----------------------
-
-Once you have the repository locally, you may follow the instructions described 
-in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file. 
+💯
+**Once you have the repository locally, you may follow the instructions described 
+in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file.** 
+💯
 
 
 ## Thank you MDAWO! 
