@@ -48,10 +48,11 @@ The size of the `.zip` is 549.1 MB.
 
 2. Add the extra samples located at the `extra_material` directory. 
 
-   * Open the repository and enter the extra_material directory
-   * Cut all the .fastq.gz files from there
+   * Open the repository and enter the `extra_material` directory
+   * Cut all the `.fastq.gz` files from there
    * Move back and enter the my_analysis directory and then to the mydata
-   * And paste the fastq.gz files here
+   * And paste the `.fastq.gz` files here
+
 
 
 3. Edit the `parameters.tsv` file 
@@ -81,20 +82,46 @@ The size of the `.zip` is 549.1 MB.
    * Move back to the `my_analysis` directory and open the `metadata.csv` file
    * Paste these 3 lines and save your changes
 
+---------------
+   💯 No we have seen exactly that the `analysis_directory` includes. <br/>
+   This is how this directory is supposed to be. <br/> 
+   
+   
+   🆘 **However, to save time, please remove all the `.fastq.gz` from the `mydata` folder.<br/>**
+   **We will upload everything else to the VSC cluster and we will copy our raw data from 
+   my account on VSC to yours.** 🆘
+
+---------------
 
 6. Upload your `analysis_directory` to the VSC cluste
 
-   * run the following command replacing the paths accordingly
+   * Once, you have removed all your `.fastq.gz` files from the `mydata` folder, 
+   open a terminal and go to the `pema-mdawo` directory. Assuming that the `pema-mdawo` repository is on your Desktop, you need to run
+
+      ```
+      cd /home/username/Desktop
+      ```
+
+   * From there, run the following command replacing the paths accordingly
 
       ```
       scp -r my_analysis/ vsc34189@login.hpc.kuleuven.be://scratch/leuven/341/vsc34189/
       ```
 
 
-7. Edit the `.pbs` script. 
+
+7. Add the raw data on VSC 
+   Go to your VSC terminal and move to your just uploaded `my_analysis` directory by running 
+
+   ```
+   cd /scratch/leuven/341/vsc34189/
+   ```
+
+8. Edit the `.pbs` script. 
 
    * Move to your home directory, i.e type `cd `
-   * Edit the `.pbs` script using the `nano` program, i.e type `nano pema_job.pbs`
+   * Make a copy of the original `.pbs` by running `cp pema_job.pbs my_job.pbs`
+   * Edit your new file with the `nano` program, i.e type `nano pema_job.pbs`
    * Replace the `/mdawo/` directory with your `my_analysis` one
    * Save your changes and exit, i.e type `ctrl+x` and then `y`
 
@@ -103,7 +130,7 @@ The size of the `.zip` is 549.1 MB.
 
    * Submit your new job by typing 
       ```
-      qsub pema_job.pbs
+      qsub my_job.pbs
       ```
 
 
