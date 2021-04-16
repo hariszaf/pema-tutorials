@@ -7,7 +7,7 @@ In the [`my_analysis`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analy
 In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) folder, you will find 6 `.fastq.gz` samples coming from 3 paired-end samples. 
 
 
-🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to stay always like this!
+🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to **stay always like this!**
 
 
 
@@ -83,13 +83,16 @@ The size of the `.zip` is 549.1 MB.
    * Paste these 3 lines and save your changes
 
 ---------------
-   💯 No we have seen exactly that the `analysis_directory` includes. <br/>
+   💯 Now we have seen exactly what the `analysis_directory` should include. <br/>
    This is how this directory is supposed to be. <br/> 
    
    
-   🆘 **However, to save time, please remove all the `.fastq.gz` from the `mydata` folder.<br/>**
+   🆘 
+   However, to save time, **please remove all the `.fastq.gz` from the `mydata` folder**, i.e *delete everything in this directory*. <br/>
+   
    **We will upload everything else to the VSC cluster and we will copy our raw data from 
-   my account on VSC to yours.** 🆘
+   my account on VSC to yours.**
+   🆘 
 
 ---------------
 
