@@ -60,10 +60,10 @@ If interested, you may download `git` by following the instructions
 
 
 ## Thank you MDAWO! 
-<img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
+<img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 200px;  align="right">
 If it was not for the Covid-19 situation, MDAWO would take place in Belgium at the University of Hasselt and we would be able to find out what else is great there besides the pralines. 
 <img src="https://liquorcity.co.za/images/thumbs/0001838_stella-artois-nrb-6-x-330ml_600.jpeg"
-width = 150px; align="left">
+width = 200px; align="left">
 
 
 The sure thing though: great talks, great software, great people!  
