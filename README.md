@@ -19,13 +19,32 @@ but also on its [GitHub repo](https://github.com/hariszaf/pema).
 
 ## Hands-on 
 
-In this repository (repo), you can find all the relative material for the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021.
 
-The presentation is available as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing).
+In this GitHub repository (repo), you will find all the relative material for the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021.
+
+You may also find the presentation for this workshop as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing).
+This will help you have an overview of the hands-on.
+
+Once you will have access to the VSC cluster, you may login and ***clone*** this repo by typing:
+
+```
+git clone https://github.com/hariszaf/pema-mdawo.git
+```  
+
+We strongly suggest to do this  **before** the workshop. 
+
+-----------------------
+💯
+**Once you get the repo, you may follow the instructions described 
+in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file.** 
+💯
+
+-----------------------
 
 
-We strongly suggest to get this repo on your personal computer (local machine), **before** 
-the workshop. 
+
+**Optional!**<br/>
+You can also get the the repo locally on your computer and investigate it thoroughly. 
 To do so, there are 2 ways. 
 Click on the green `Code` button and then: 
 * You can download this repo as a `.zip` file (~541MB so it will take a while)
@@ -34,25 +53,19 @@ Click on the green `Code` button and then:
    git clone https://github.com/hariszaf/pema-mdawo.git
    ```  
 
-
-**Optional!**<br/>
 `git` is a powerfull distributed version control system tool
 If interested, you may download `git` by following the instructions 
 [here](https://www.atlassian.com/git/tutorials/install-git). 
 
------------------------
-💯
-**Once you have the repository locally, you may follow the instructions described 
-in the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file.** 
-💯
 
------------------------
 
 ## Thank you MDAWO! 
 <img src="https://static6.depositphotos.com/1003580/615/i/600/depositphotos_6150624-stock-photo-kid-with-chocolate.jpg" width= 150px;  align="right">
 If it was not for the Covid-19 situation, MDAWO would take place in Belgium at the University of Hasselt
 and we would be able to find out what else is great there besides the pralines. 
 
+<img src="https://liquorcity.co.za/images/thumbs/0001838_stella-artois-nrb-6-x-330ml_600.jpeg"
+width = 150px; align="left">
 
 The sure thing though: great talks, great software, great people!  
 
