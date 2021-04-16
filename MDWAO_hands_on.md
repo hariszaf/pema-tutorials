@@ -1,6 +1,29 @@
 # PEMA hands-on @ MDAWO
 
-## The `my_analysis` directory
+
+You must already have logged in the VSC cluster and 
+cloned this GitHub repository on your account. 
+
+If not, here is how you can do this:
+
+1. To log in the VSC cluster: 
+
+```
+geert will thell us! :)
+```
+
+2. To clone the repo:
+
+```
+git clone https://github.com/hariszaf/pema-mdawo.git
+```
+
+Now you are ready to go!
+
+
+## Two major directories
+
+### The `my_analysis` directory
 
 In the [`my_analysis`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis) directory you will find the exact input we used to run the first PEMA analysis on the VSC cluster. 
 
@@ -11,14 +34,13 @@ In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/m
 
 
 
-## The `extra_material` directory
+### The `extra_material` directory
 
 In the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those we have already run in the first part of the hands-on. 
 
-You will also find a `.csv` file called `extra_metadata.csv`. 
+You will also find a `.csv` file called `extra_metadata.csv` with the corresponding metadata of these extra samples.
 
-This directory is just for you to practice, as a simulation of how you would set up 
-a PEMA analysis. It has nothing to do with the PEMA actual code. 
+✔️ This directory is just in the framework of this workshop. You will not need this when you will actually run PEMA.  
 
 
 -------------------
@@ -26,10 +48,69 @@ a PEMA analysis. It has nothing to do with the PEMA actual code.
 Many thanks to Dr. Christina Pavloudi for providing us with both data and their corresponding metadata.
 You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/browser/view/PRJEB20211).
 
+-------------------
 
-## Run your own analysis! 
 
-Our goal is to set everything needed for a PEMA analysis. 
+
+## Part A: Run as a black box
+
+This will be the first task of the workshop and you will implement it on the 
+first part of it (09:00 AM - 10:45 AM). 
+
+In this task, you will run an already set up PEMA analysis, using the 3
+samples that you can find in the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) directory. 
+
+
+To do this, you only have to edit the `pema_job.pbs` script. 
+
+Type `nano pema_job.pbs` and you will see 
+
+```{bash}
+#!/bin/bash -l
+
+# ~~~~~~~  A. PBS-related part  ~~~~~~~
+
+#PBS -A lp_h_mdaw
+#PBS -l nodes=1:ppn=6
+#PBS -l walltime=01:00:00
+#PBS -l pmem=5gb
+#PBS -m bae
+# >>>>>    Replace my email with yours    <<<<<<<
+#PBS -M haris-zaf@hcmr.gr
+  
+# ~~~~~~~  B. PEMA execution command  ~~~~~~~
+# >>>>>    Replace my path to my_analysis with yours    <<<<<<<
+singularity run -B /scratch/leuven/341/vsc34189/pema-mdawo/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
+```
+
+Then you need to **replace** my email with yours on the `#PBS -M` 
+and my path to the `my_analysis` directory with yours.
+
+To do this, you may type `pwd` and then replace the `/scratch/leuven/341/vsc34189` part 
+of the PEMA execution command, with its output.
+
+
+To save the changes you made, you may type `ctrl+x` and once you see the following message:
+`Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?` you may type `y`.
+
+Now you can submit your first job by:
+```
+qsub pema_job.sh
+```
+
+To check whether it is running, type `qstat`. 
+<img src="https://miro.medium.com/max/900/0*Pm4WhqyKBbQecedZ.png" width= 200px;  align="right">
+You may also check your email. ;)
+
+
+
+## Part B: Run your own analysis! 
+
+In the first 
+
+Our goal is to set all needed to run PEMA and then run an analysis. 
+
+In the first 
 
 As raw data, we will use both the samples used in the initial run (already in the `mydata` folder) but also those stored in the `extra_material` directory.  
 The same applies for their corresponding metadata too. 
