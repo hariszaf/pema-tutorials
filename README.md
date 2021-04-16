@@ -72,7 +72,7 @@ The sure thing though: great talks, great software, great people!
 Many thanks to [Dr. Sofie Thijs](https://www.linkedin.com/in/sofiethijs/?originalSubdomain=be) for the chance of presenting 
 [PEMA](http://pema.hcmr.gr/) to such an event! 
 
-
+<br/>
 
 ## PEMA as an open source project
 
