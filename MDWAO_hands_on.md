@@ -194,15 +194,11 @@ tmp_work_dir=$(pwd) ; path="${tmp_work_dir#*user/}" ; work_dir="/scratch/leuven/
 singularity run -B $work_dir/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
 ```
 
-Then you need to **replace** my email with yours on the `#PBS -M` 
-and my path to the `my_analysis` directory with yours.
-
-To do this, you may type `pwd` and then replace the `/scratch/leuven/341/vsc34189` part 
-of the PEMA execution command, with its output.
+Then you need, **optionally**, to **replace** my email with yours on the `#PBS -M`.
 
 
 To save the changes you made, you may type `ctrl+x` and once you see the following message:
-`Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?` you may type `y`.
+`Save modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?` you may type `y` and then `enter`.
 
 Now you can submit your first job by:
 ```
@@ -214,6 +210,12 @@ To check whether it is running, type `qstat`.
 You may also check your email. ;)
 
 <br/>
+
+Once your job starts, two files are automatically built by the PBS schedulurer: 
+for example `pema_job.pbs.e50705634`,  `pema_job.pbs.o50705634` denoting the standard error and output 
+accordingly.
+
+
 
 Here is the recording for what you need to do for Part A: 
 [![asciicast](https://asciinema.org/a/407917.svg)](https://asciinema.org/a/407917)
