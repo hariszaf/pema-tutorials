@@ -66,14 +66,12 @@ cd /scratch/leuven/342/vsc34247
 ```
 
 
-🎗️ **Hints:**  
-`pwd` stands for `print working directory`. Accordingly, `cd`  for `change directory`.
 
 ### Clone this `pema-mdawo` GitHub repo on your VSC account
 
 Once you are sure that your working directory is on the `scratch` section, you just need to type:
 
-```
+```{bash}
 git clone https://github.com/hariszaf/pema-mdawo.git
 ```
 
@@ -82,6 +80,25 @@ This repo includes:
 1. The `my_analysis` directory. This directory includes a complete example of a PEMA analysis. Both the mandatory and optional input files for PEMA as well as an example output.
 2. The `.pbs` script that we will use to submit a *job* in the VSC cluster 
 3. The `extra_material` directory, where you will find some extra samples (raw data) along with their corresponding metadata to perform a second PEMA analysis on your own. 
+
+
+This will take a few seconds. Once the clone is ready, a new directory called `pema-mdawo` will be in your `/scratch`. You need to move inside this new directory as this will be our main working directory.
+
+
+```{bash}
+✔ [Apr/17 15:46] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189 $ ls
+pema-mdawo
+✔ [Apr/17 15:47] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189 $ cd pema-mdawo/
+✔ [Apr/17 15:47] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189/pema-mdawo $ ls
+extra_material  MDWAO_hands_on.md  my_analysis  pema_job.pbs  README.md
+```
+
+That's all! Now we are ready to go for the PEMA analysis. 
+
+
+🎗️ **Hints:**  
+`pwd` stands for *print working directory*. Accordingly, `cd`  for `change directory` and `ls` for *list*.
+
 
 
 ## Two major directories
@@ -124,7 +141,9 @@ In this task, you will run an already set up PEMA analysis, using the 3
 samples that you can find in the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) directory. 
 
 
-To do this, you only have to edit the `pema_job.pbs` script. 
+To do this, make sure you have loged in the VSC cluster and your working directory is the `/root`
+
+you only have to edit the `pema_job.pbs` script. 
 
 Type `nano pema_job.pbs` and you will see 
 
@@ -290,5 +309,3 @@ specify exactly what it takes to tune the best way an analysis.
 
 We strongly suggest to visit the documentation sites of the tools invoked, 
 for a thourough description of the parameters. 
-
-
