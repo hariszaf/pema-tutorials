@@ -216,7 +216,7 @@ You may also check your email. ;)
 <br/>
 
 Here is the recording for what you need to do for Part A: 
-[![asciicast](https://asciinema.org/a/F1s3R5sgHdUGMh2LLJfbQlx4a.svg)](https://asciinema.org/a/F1s3R5sgHdUGMh2LLJfbQlx4a)
+[![asciicast](https://asciinema.org/a/407917.svg)](https://asciinema.org/a/407917)
 
 
 ## Part B: Run your own analysis! 
