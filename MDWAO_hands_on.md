@@ -9,6 +9,9 @@ implement this at an earlier stage. 🆘
 
 ### Login the VSC cluster 
 
+
+[![asciicast](https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3.svg)](https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3)
+
 You must already have access in the VSC cluster. 
 To login, you first need to open a terminal. 
 
@@ -17,6 +20,8 @@ Depending on your Operating System, to do so:
 * **Linux:** type the shortcut: `ctrl+alt+t` 
 * **Mac**: type “terminal” on spotlight
 * **Windows:** Start menu -> Type “CMD”
+
+<script id="asciicast-93gS3lOEsY9G6xo13TNy16JE3" src="https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3.js" async></script>
 
 and then type 
 
@@ -188,11 +193,10 @@ You may also check your email. ;)
 
 ## Part B: Run your own analysis! 
 
-In the first 
 
-Our goal is to set all needed to run PEMA and then run an analysis. 
+In the first part we ran a PEMA analysis as a black box. The raw data and the parameteres were already set and the only thing we did was to submit a job in the VSC cluster. 
 
-In the first 
+In this part, our goal is to set all needed to run PEMA on your own. 
 
 As raw data, we will use both the samples used in the initial run (already in the `mydata` folder) but also those stored in the `extra_material` directory.  
 The same applies for their corresponding metadata too. 
