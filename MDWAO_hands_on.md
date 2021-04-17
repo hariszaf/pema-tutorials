@@ -213,8 +213,10 @@ To check whether it is running, type `qstat`.
 <img src="https://miro.medium.com/max/900/0*Pm4WhqyKBbQecedZ.png" width= 200px;  align="right">
 You may also check your email. ;)
 
+<br/>
 
-
+Here is the recording for what you need to do for Part A: 
+[![asciicast](https://asciinema.org/a/F1s3R5sgHdUGMh2LLJfbQlx4a.svg)](https://asciinema.org/a/F1s3R5sgHdUGMh2LLJfbQlx4a)
 
 
 ## Part B: Run your own analysis! 
