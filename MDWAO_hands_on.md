@@ -473,6 +473,8 @@ If you are confident about your internet connection, you should try this way!
 
 8. Run your own analysis 
 
+   * Go to your `pema-mdawo` directory and 
+
    * Submit your new job by typing 
       ```
       qsub my_job.pbs
