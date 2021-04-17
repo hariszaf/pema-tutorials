@@ -15,13 +15,11 @@
 
 # ~~~~~~~  B. PEMA execution command  ~~~~~~~
 
-# The following 3 lines aim to make the script to run on everyone's unique path.
+# In the following line, these 3 commands aim to make the script to run on everyone's unique path.
 # You can remove them and replace the "$work_dir" variable with your absolute path
 # e.g in my case, I could remove the following lines and run 
 # singularity run -B /scratch/leuven/341/vsc34189/pema-mdawo/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
-tmp_work_dir=$(pwd)
-path="${tmp_work_dir#*user/}"
-work_dir="/scratch/leuven/$path/pema-mdawo"
+tmp_work_dir=$(pwd) ; path="${tmp_work_dir#*user/}" ; work_dir="/scratch/leuven/$path/pema-mdawo"
 
 singularity run -B $work_dir/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
 
