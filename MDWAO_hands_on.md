@@ -1,16 +1,22 @@
 # PEMA hands-on @ MDAWO
 
-This tutorial has 3 main parts: 
-* Preparatory steps
-* Part A: Run as a black box
-* Part B: Run your own analysis!
+# Table of Contents
+1. [Preparatory steps](#preparatory-steps)
+   1. [Login the VSC cluster](#login-the-vsc-cluster)
+   2. [Clone the `pema-mdawo` GitHub repo](#clone-the-pema-mdawo-GitHub-repo)
+   3. [Two major directories](#two-major-directories)
+      1. [The `my_analysis` directory](#the-my_analysis-directory)
+      2. [The `extra_material` directory](#the-extra_material-directory)
+2. [Part A: Run as a black box](#part-A-run-as-a-black-box)
+3. [Part B: Run your own analysis!](#Part-B-run-your-own-analysis)
 
+
+This tutorial has 3 main parts.
 In the end of each part, you will find a recording of 
 the terminal parts you will have to run for each of those 
 to help you go through it. 
 Hope it helps, but in all cases, feel free to ask anytime about anything!
 Command line can be hard!
-
 
 ## Preparatory steps
 
@@ -77,7 +83,7 @@ cd /scratch/leuven/342/vsc34247
 ```
 
 
-### Clone this `pema-mdawo` GitHub repo on your VSC account
+### Clone the `pema-mdawo` GitHub repo
 
 Once you are sure that your working directory is on the `scratch` section, you just need to type:
 
@@ -110,20 +116,9 @@ That's all! Now we are ready to go for the PEMA analysis.
 `pwd` stands for *print working directory*. Accordingly, `cd`  for `change directory` and `ls` for *list*.
 
 
-Here is the recording for this first part with all you need to do from your terminal console:
-[![asciicast](https://asciinema.org/a/407903.svg)](https://asciinema.org/a/407903)
+### Two major directories
 
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" >
-    <source src="https://asciinema.org/a/407903.svg4">
-  </video>
-</figure>
-
-
-## Two major directories
-
-### The `my_analysis` directory
+#### The `my_analysis` directory
 
 In the [`my_analysis`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis) directory you will find the exact input we used to run the first PEMA analysis on the VSC cluster. 
 
@@ -134,13 +129,17 @@ In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/m
 
 
 
-### The `extra_material` directory
+#### The `extra_material` directory
 
 In the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those we have already run in the first part of the hands-on. 
 
 You will also find a `.csv` file called `extra_metadata.csv` with the corresponding metadata of these extra samples.
 
 ✔️ This directory is just in the framework of this workshop. You will not need this when you will actually run PEMA.  
+
+
+Here is the recording for this first part with all you need to do from your terminal console:
+[![asciicast](https://asciinema.org/a/407903.svg)](https://asciinema.org/a/407903)
 
 
 -------------------
@@ -152,22 +151,23 @@ You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/bro
 
 
 
+
 ## Part A: Run as a black box
 
 This will be the first task of the workshop and you will implement it on the 
-first part of it (09:00 AM - 10:45 AM). 
+first part of it. 
 
 In this task, you will run an already set up PEMA analysis, using the 3
 samples that you can find in the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) directory. 
 
 
-To do this, make sure you have loged in the VSC cluster and your working directory is the `/root`
+To do this, make sure you have loged in the VSC cluster and your working directory is the `/pema-mdawo`
 
 you only have to edit the `pema_job.pbs` script. 
 
 Type `nano pema_job.pbs` and you will see 
 
-```{bash}
+``` bash
 #!/bin/bash -l
 
 # ~~~~~~~  A. PBS-related part  ~~~~~~~
@@ -177,12 +177,21 @@ Type `nano pema_job.pbs` and you will see
 #PBS -l walltime=01:00:00
 #PBS -l pmem=5gb
 #PBS -m bae
+
 # >>>>>    Replace my email with yours    <<<<<<<
 #PBS -M haris-zaf@hcmr.gr
   
 # ~~~~~~~  B. PEMA execution command  ~~~~~~~
-# >>>>>    Replace my path to my_analysis with yours    <<<<<<<
-singularity run -B /scratch/leuven/341/vsc34189/pema-mdawo/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
+
+# The following 3 lines aim to make the script to run on everyone's unique path.
+# You can remove them and replace the "$work_dir" variable with your absolute path
+# e.g in my case, I could remove the following lines and run 
+# singularity run -B /scratch/leuven/341/vsc34189/pema-mdawo/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
+tmp_work_dir=$(pwd)
+path="${tmp_work_dir#*user/}"
+work_dir="/scratch/leuven/$path/pema-mdawo"
+
+singularity run -B $work_dir/my_analysis:/mnt/analysis /ddn1/vol1/site_scratch/leuven/314/vsc31426/pema_v.2.0.3.sif
 ```
 
 Then you need to **replace** my email with yours on the `#PBS -M` 
@@ -203,6 +212,8 @@ qsub pema_job.sh
 To check whether it is running, type `qstat`. 
 <img src="https://miro.medium.com/max/900/0*Pm4WhqyKBbQecedZ.png" width= 200px;  align="right">
 You may also check your email. ;)
+
+
 
 
 
