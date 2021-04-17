@@ -9,8 +9,7 @@ implement this at an earlier stage. 🆘
 
 ### Login the VSC cluster 
 
-
-[![asciicast](https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3.svg)](https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3)
+[![asciicast](https://asciinema.org/a/407892.svg)](https://asciinema.org/a/407892)
 
 You must already have access in the VSC cluster. 
 To login, you first need to open a terminal. 
@@ -23,9 +22,6 @@ Depending on your Operating System, to do so:
 
 
 
-<p>This is some text.</p>
-<script id="asciicast-93gS3lOEsY9G6xo13TNy16JE3" src="https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3.js" async></script>
-<p>This is some other text.</p>
 
 and then type 
 
