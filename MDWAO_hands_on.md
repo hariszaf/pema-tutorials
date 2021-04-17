@@ -18,7 +18,7 @@ In the end of each part, you will find a recording of
 the terminal parts you will have to run for each of those 
 to help you go through it. 
 Hope it helps, but in all cases, feel free to ask anytime about anything!
-Command line can be hard!
+Command line can be scary! 🕹️
 
 ## Preparatory steps
 
@@ -51,18 +51,28 @@ By typing `pwd` you may see what that is in your case.
 /user/leuven/341/vsc34189
 ```
 
-However, we will be working on `scratch` directory. 
+However, we will be working on the `scratch` directory. 
 
 To move there you just need to get the output of the previous command
 and replace the `/user` part with `/scratch`.
 
-Now, if you type `pwd` again you will that you have been transfered in 
-
 ```{bash}
 ✔ [Apr/17 14:03] vsc34189@tier2-p-login-2 ~ $ cd  /scratch/leuven/341/vsc34189
+```
+
+Now, if you type `pwd` again you will see that you have been transfered in your `/scratch` directory. 
+
+```bash
 ✔ [Apr/17 14:03] vsc34189@tier2-p-login-2 ~ $ pwd
 /scratch/leuven/341/vsc34189
 ```
+
+And if you type `ls` you will see that your `/scratch` directory is empty:
+```{bash}
+✔ [Απρ/18 01:08] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189 $ ls
+✔ [Απρ/18 01:08] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189 $ 
+```
+
 
 :sos:🆘
 We will refer to the `/leuven/341/vsc34189` part  <span style="color:green">**`USER_PATH`**</span>. <br/>
