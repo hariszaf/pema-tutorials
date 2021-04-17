@@ -3,12 +3,14 @@
 
 ## Preparatory steps
 
-> This part will be presented during the workshop however, we strongly suggest to have 
-implement this at an earlier stage.
+> 🆘 This part will be presented during the workshop however, we strongly suggest to have 
+implement this at an earlier stage. 🆘
+
+
+### Login the VSC cluster 
 
 You must already have access in the VSC cluster. 
-
-To do this, you first need to open a terminal. 
+To login, you first need to open a terminal. 
 
 Depending on your Operating System, to do so: 
 
@@ -30,8 +32,6 @@ By typing `pwd` you may see what that is in your case.
 /user/leuven/341/vsc34189
 ```
 
-🎗️ **Tip:**  `pwd` stands for `print working directory`.  🎗️
-
 However, we will be working on `scratch` directory. 
 
 To move there you just need to get the output of the previous command
@@ -45,14 +45,43 @@ Now, if you type `pwd` again you will that you have been transfered in
 /scratch/leuven/341/vsc34189
 ```
 
+:sos:🆘
+We will refer to the `/leuven/341/vsc34189` part  <span style="color:green">**`USER_PATH`**</span>. <br/>
+>**Attention!** This is **unique** for every user!  <br/>
+So, every time you see the <span style="color:green">**`USER_PATH`**</span> flag, you will have to **replace** it with **your own** path, as I did with mine. 
 
-2. To clone the repo:
+For example, from now on, 
+```{bash}
+cd /scratch/USER_PATH/
+```
+means (**to me alone!!**)
+```{bash}
+cd /scratch/leuven/341/vsc34189
+```
+
+while for the fictional user `vsc34247` would mean 
+
+```{bash}
+cd /scratch/leuven/342/vsc34247
+```
+
+
+🎗️ **Hints:**  
+`pwd` stands for `print working directory`. Accordingly, `cd`  for `change directory`.
+
+### Clone this `pema-mdawo` GitHub repo on your VSC account
+
+Once you are sure that your working directory is on the `scratch` section, you just need to type:
 
 ```
 git clone https://github.com/hariszaf/pema-mdawo.git
 ```
 
-Now we are ready to go!
+This repo includes: 
+
+1. The `my_analysis` directory. This directory includes a complete example of a PEMA analysis. Both the mandatory and optional input files for PEMA as well as an example output.
+2. The `.pbs` script that we will use to submit a *job* in the VSC cluster 
+3. The `extra_material` directory, where you will find some extra samples (raw data) along with their corresponding metadata to perform a second PEMA analysis on your own. 
 
 
 ## Two major directories
@@ -64,7 +93,7 @@ In the [`my_analysis`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analy
 In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/mydata) folder, you will find 6 `.fastq.gz` samples coming from 3 paired-end samples. 
 
 
-🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to **stay always like this!**
+🆘🙈🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to **stay always like this!**
 
 
 
