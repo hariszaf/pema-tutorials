@@ -21,7 +21,11 @@ Depending on your Operating System, to do so:
 * **Mac**: type “terminal” on spotlight
 * **Windows:** Start menu -> Type “CMD”
 
+
+
+<p>This is some text.</p>
 <script id="asciicast-93gS3lOEsY9G6xo13TNy16JE3" src="https://asciinema.org/a/93gS3lOEsY9G6xo13TNy16JE3.js" async></script>
+<p>This is some other text.</p>
 
 and then type 
 
