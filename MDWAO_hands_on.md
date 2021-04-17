@@ -1,16 +1,50 @@
 # PEMA hands-on @ MDAWO
 
 
-You must already have logged in the VSC cluster and 
-cloned this GitHub repository on your account. 
+## Preparatory steps
 
-If not, here is how you can do this:
+> This part will be presented during the workshop however, we strongly suggest to have 
+implement this at an earlier stage.
 
-1. To log in the VSC cluster: 
+You must already have access in the VSC cluster. 
+
+To do this, you first need to open a terminal. 
+
+Depending on your Operating System, to do so: 
+
+* **Linux:** type the shortcut: `ctrl+alt+t` 
+* **Mac**: type “terminal” on spotlight
+* **Windows:** Start menu -> Type “CMD”
+
+and then type 
 
 ```
-geert will thell us! :)
+ssh ....and geert will thell us what! :)
 ```
+
+Once loged in, you automatically move to your `home` directory.
+By typing `pwd` you may see what that is in your case.
+
+```{bash}
+✔ [Apr/17 14:03] vsc34189@tier2-p-login-2 ~ $ pwd 
+/user/leuven/341/vsc34189
+```
+
+🎗️ **Tip:**  `pwd` stands for `print working directory`.  🎗️
+
+However, we will be working on `scratch` directory. 
+
+To move there you just need to get the output of the previous command
+and replace the `/user` part with `/scratch`.
+
+Now, if you type `pwd` again you will that you have been transfered in 
+
+```{bash}
+✔ [Apr/17 14:03] vsc34189@tier2-p-login-2 ~ $ cd  /scratch/leuven/341/vsc34189
+✔ [Apr/17 14:03] vsc34189@tier2-p-login-2 ~ $ pwd
+/scratch/leuven/341/vsc34189
+```
+
 
 2. To clone the repo:
 
@@ -18,7 +52,7 @@ geert will thell us! :)
 git clone https://github.com/hariszaf/pema-mdawo.git
 ```
 
-Now you are ready to go!
+Now we are ready to go!
 
 
 ## Two major directories
