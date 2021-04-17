@@ -9,6 +9,8 @@
       2. [The `extra_material` directory](#the-extra_material-directory)
 2. [Part A: Run as a black box](#part-A-run-as-a-black-box)
 3. [Part B: Run your own analysis!](#Part-B-run-your-own-analysis)
+   1. [Step-by-step: on terminal](#step-by-step-on-terminal)
+   2. [Step-by-step: for those who prefer graphical interface](#step-by-step-for-those-who-prefer-graphical-interface)
 
 
 This tutorial has 3 main parts.
@@ -230,74 +232,233 @@ As raw data, we will use both the samples used in the initial run (already in th
 The same applies for their corresponding metadata too. 
 
 Therefore, once our analysis is complete, we will have an OTUs/ASVs table of 6 samples. <br/>
-Let' start.
 
 
-### Step-by-step
-
-1. Download the `pema-mdawo` repository. <br/>
-You can either `git pull https://github.com/hariszaf/pema-mdawo.git`  <br/>
-or download it as a `.zip` file.
-In case you do the latter, unzip the file to get access to its contents. 
-The size of the `.zip` is 549.1 MB.
-
-2. Add the extra samples located at the `extra_material` directory. 
-
-   * Open the repository and enter the `extra_material` directory
-   * Cut all the `.fastq.gz` files from there
-   * Move back and enter the my_analysis directory and then to the mydata
-   * And paste the `.fastq.gz` files here
+During the workshop, we will see the ***on terminal*** way to minimize the types of errors.
+However, as it is much easier when you are working on your own, to have a graphical interface, 
+[you may find below](#step-by-step-for-those-who-prefer-graphical-interface) how you can do this. 
 
 
+Let' start!
 
-3. Edit the `parameters.tsv` file 
 
-   * Move back to the `my_analysis` directory 
+### Step-by-step: on terminal 
+
+0. To see what is you own path, type: 
+   ```bash
+   ✔ [Απρ/17 23:05] vsc34189@tier2-p-login-2 ~ $ pwd
+   /user/leuven/341/vsc34189
+   ```
+
+   The output of this command will be unique for each of us, 
+   so when we use a path we need to make sure we use the one of our own. 
+
+   Now, we need to move to the `/scratch` storage of our account on the VSC cluster to start Part B. 
+
+   To do so
+   ```bash
+   cd /scratch/leuven/341/vsc34189
+   ```
+
+   :sos: **REMEMBER!:** The `/leuven/341/vsc34189` part will have to change according to the output of the previous command and as we said earlier we will call this <span style="color:green">**`USER_PATH`**</span>.
+
+
+<br />
+
+1. Go to the `extra_material` directory . <br/>
+
+   :sos:  If you still have not done this, please do so! 🆘
+
+   ```bash
+   git clone https://github.com/hariszaf/pema-mdawo.git
+   ```
+   Move to the `extra_material` directory by typing 
+   ```bash
+   cd pema-mdawo/extra_material
+   ```
+
+   * Let us see what is there. Type: 
+   ```bash
+   ✔ [Απρ/17 23:44] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189/pema-mdawo/extra_material $ ls
+   ERR1906856_1.fastq.gz  ERR1906856_2.fastq.gz  ERR1906861_1.fastq.gz  ERR1906861_2.fastq.gz  ERR1906866_1.fastq.gz  ERR1906866_2.fastq.gz  extra_metadata.csv
+   ```
+
+   As you can see, we have 6 `.fastq.gz` files, i.e 3 paired-end samples and a `metadata.csv` file with their corresponding metadata. 
+
+   You can see the metadata by typing:
+
+   ```bash
+   ✔ [Απρ/17 23:44] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189/pema-mdawo/extra_material $ cat extra_metadata.csv 
+   Samples,Biome,Habitat,Location,Chla_waterORflSPFluorescence,Chla_sed,Phaeop_sed,CPE_sed,POC_sed,Temperature,Salinity,O2_mglt,silt_clay,sand
+   ERR1906856,Lagoon,Logarou,LOin,1.147296,6.742082534,8.99409309,15.73617562,21320.32147,11.1,27.8,8.42,3.29439559,96.70560441
+   ERR1906861,Sea,Kalamitsi,Kal,0.99,2.128711019,1.760383576,3.889094595,5954.198473,19.77,38.82,6.81,1.523781402,98.4762186
+   ERR1906866,River,Arachthos,AR,0.4845,0.966869609,1.527981735,2.494851344,11684.21053,14.1,0.2,10.24,21.32269099,78.67730901
+   ```
+
+
+2. Copy the `fastq.gz` files from there to the `mydata` directory. 
+
+   * All the `.fastq.gz` files have the `ERR` prefix, so we can ask to copy all the files starting with that prefix to the `mydata` directory. 
+
+   ```bash 
+   cp ERR* ../my_analysis/mydata
+   ```
+
+   **Tip:** The `..` means *one directory up*. So you can use such commands without the need for a full path.
+
+
+3. Edit the `metadata.csv` script
+
+   * View the `extra_metadata.csv` file by typing
+
+   ```bash
+   cat extra_metadata.csv
+   ```
+
+   * Copy the lines corresponding to the 3 new samples we added in our `mydata` directory, but **not** the header! To do this, type
+
+   ```bash
+   tail -3 extra_metadata.csv >> ../my_analysis/metadata.csv
+   ```
+
+   To see that your `metadata.csv` has now 6 entries, move to the `my_analysis` directory 
+   ```bash
+   cd ../my_analysis
+   ```
+   and view the `metadata.csv` file by typing 
+   ```bash 
+   cat metadata.csv
+   ```
+
+
+
+4. Edit the `parameters.tsv` file 
+
    * Open the `parameters.tsv` file 
-   * Find the `outputFolderName` parameter and replace the `test_16S_mdawo_phyloseq` value with any name you would like your analysis to have*, e.g `my_pema_run_at_mdawo`. <br/>
-   * Save your changes and close the file
+   ```bash 
+   nano parameters.tsv
+   ```
+
+   <img src="https://i.ibb.co/Lx54KTP/Selection-307.png"  align="center">
+
+   <br />
+
+   * Find the `outputFolderName` parameter and replace the its value with any name you would like your analysis to have*, e.g `my_pema_run_at_mdawo`. <br/>
+
+   * Save your changes and exit by typing `ctrl+x` and then `y` and `enter`.
 
    ***Tip:** Avoid special characters in the names you give to your files and folders like `@` or even `.`. It is better to use `_` or `-`. 
 
-
-4. Edit the `phyloseq_in_PEMA.R` script
-
-   * From the `my_analysis` directory, open the `phyloseq_in_PEMA.R` script
-   * Let us see and talk about Sections 0 and 1; as we mentioned these sections stay always the same
-   * Move down to Section 2; this is where the `div_indices.csv` file we saw earlier is built. 
-   You can remove it, change its name, ask for less or more etc 
-   * Finally, move down to Section 3 where the various plots are built. <br />
-   Change the names as you would like to
+   🆘:sos: **Important !**  This is a **tab separated file**! That means you **always** have to leave a **tab between a parameter and its value**! Otherwise, PEMA will fail!
 
 
-5. Edit the `metadata.csv` script
+
+5. Edit the `phyloseq_in_PEMA.R` script
+
+   * Open the `phyloseq_in_PEMA.R` script
+
+   ```bash
+   nano phyloseq_in_PEMA.R
+   ```
+
+   * Sections 0 and 1 stay always the same, so we move down to Section 3
+
+   * Find where the name of a plot is given and edit it. For example 
+   ```bash
+   #here you can change the taxonomic rank and the grouping of samples
+   barchart100 <- plot_bar(physeq.top100, fill="Phylum") + facet_wrap(~Habitat, scales="free_x")
+   pdf("barchart100.pdf")
+   print(barchart100)
+   dev.off()
+   ```
+   Change the name `barchart100.pdf` as you like
+
+   * And then again, save your changes and exit by typing `ctrl+x`, then `y` and `enter`. 
+
+
+
+
+6. **(Optional!)** Edit the `.pbs` script. 
+
+   * Move to the root of this repo, i.e 
+   `cd /scratch/USER_PATH`
+
+   * Edit the `.pbs` script by typing `nano pema_job.pbs` and then remove the 3 commands
+
+   ```bash 
+   tmp_work_dir=$(pwd) ; path="${tmp_work_dir#*user/}" ; work_dir="/scratch/leuven/$path/pema-mdawo"
+   ```
+
+   and the `$work_dir` variable in the PEMA execution command and replace them with your 
+   `/scratch/USER_PATH/pema-mdawo`. 
+
+   REMEMBER! You must not write `USER_PATH` but its value for your case! 
+
+
+   * Save your changes and exit, i.e type `ctrl+x` and then `y`
+
+
+7. Run your own analysis 
+
+
+   * Move to the root of this repo, i.e 
+   `cd /scratch/USER_PATH`
+
+   * Submit your new job by typing 
+      ```
+      qsub my_job.pbs
+      ```
+
+
+
+Here is the corresponding recording with what you need to run on the VSC cluster to complete Part B: 
+[![asciicast](https://asciinema.org/a/407924.svg)](https://asciinema.org/a/407924)
+
+
+***Now you just need to wait for PEMA to run your analysis!!***
+
+
+
+<img src="https://memegenerator.net/img/instances/65868280/we-did-it-its-done.jpg" >
+
+
+
+
+
+
+
+### Step-by-step: for those who prefer graphical interface
+
+This way is usually much easier and way more user-friendly. 
+However, you need to make sure that your internet connection is good enough as you will have to upload your raw data from your computer to the cluster. 
+If you are confident about your internet connection, you should try this way! 
+
+0. You need to download the repository locally on your computer.  You can do this by clicking on the green "Code" button and then "Download as ZIP".  Then, move into the repo and 
+
+1. Go to the `extra_material` directory.
+
+2. **Cut** the `fastq.gz` files from there to the `mydata` directory. 
+
+3. Move back and enter the `my_analysis` directory and then the `mydata` one
+
+4. Paste the `.fastq.gz` files here
+
+5. Move back to the `my_analysis` directory, open the `phyloseq_in_PEMA.R` script
+   Move down to Section 3 and change the any name(s) as you would like to; for example you may change the name `barchart100.pdf` to something that makes more sense to you.
+
+6. Edit the `metadata.csv` script
 
    * Move again to the `extra_material` directory
    * Open the `extra_metadata.csv` file and copy the lines corresponding to the 3 new samples we added in our `mydata` directory 
    * Move back to the `my_analysis` directory and open the `metadata.csv` file
    * Paste these 3 lines and save your changes
 
----------------
-   💯 Now we have seen exactly what the `analysis_directory` should include. <br/>
-   This is how this directory is supposed to be. <br/> 
-   
-   
-   🆘 
-   However, to save time, **please remove all the `.fastq.gz` from the `mydata` folder**, i.e *delete everything in this directory*. <br/>
-   
-   **We will upload everything else to the VSC cluster and we will copy our raw data from 
-   my account on VSC to yours.**
-   🆘 
+7. Upload your `analysis_directory` to the VSC cluste
 
----------------
-
-6. Upload your `analysis_directory` to the VSC cluste
-
-   * Once, you have removed all your `.fastq.gz` files from the `mydata` folder, 
-   open a terminal and go to the `pema-mdawo` directory. Assuming that the `pema-mdawo` repository is on your Desktop, you need to run
+   * Open a terminal and go to the `pema-mdawo` directory that you downloaded on your computer. Assuming that the `pema-mdawo` repository is on your `/home` directory, you need to run
 
       ```
-      cd /home/username/Desktop
+      cd /home
       ```
 
    * From there, run the following command replacing the paths accordingly
@@ -308,20 +469,6 @@ The size of the `.zip` is 549.1 MB.
 
 
 
-7. Add the raw data on VSC 
-   Go to your VSC terminal and move to your just uploaded `my_analysis` directory by running 
-
-   ```
-   cd /scratch/leuven/341/vsc34189/
-   ```
-
-8. Edit the `.pbs` script. 
-
-   * Move to your home directory, i.e type `cd `
-   * Make a copy of the original `.pbs` by running `cp pema_job.pbs my_job.pbs`
-   * Edit your new file with the `nano` program, i.e type `nano pema_job.pbs`
-   * Replace the `/mdawo/` directory with your `my_analysis` one
-   * Save your changes and exit, i.e type `ctrl+x` and then `y`
 
 
 8. Run your own analysis 
@@ -332,12 +479,22 @@ The size of the `.zip` is 549.1 MB.
       ```
 
 
-Now you just need to wait for PEMA to run your analysis. 
 
-In the meanwhile you may have a thorough look on the [`parameters.tsv`](https://github.com/hariszaf/pema-mdawo/blob/main/my_analysis/parameters.tsv) file
-and all the parameters there. 
+
+
+
+
+
+While you are waiting for your job to complete, you may have a thorough look on the [`parameters.tsv`](https://github.com/hariszaf/pema-mdawo/blob/main/my_analysis/parameters.tsv) file and all the parameters there. 
 As already mentioned this is the key-bone of PEMA as it allows the user to 
 specify exactly what it takes to tune the best way an analysis. 
 
 We strongly suggest to visit the documentation sites of the tools invoked, 
 for a thourough description of the parameters. 
+
+
+
+That's it! Now you may check on your results - and maybe, based on those, run a new analysis to tune better your parameters! 
+
+
+
