@@ -1,15 +1,23 @@
 # PEMA hands-on @ MDAWO
 
+This tutorial has 3 main parts: 
+* Preparatory steps
+* Part A: Run as a black box
+* Part B: Run your own analysis!
+
+In the end of each part, you will find a recording of 
+the terminal parts you will have to run for each of those 
+to help you go through it. 
+Hope it helps, but in all cases, feel free to ask anytime about anything!
+Command line can be hard!
+
 
 ## Preparatory steps
 
-> 🆘 This part will be presented during the workshop however, we strongly suggest to have 
-implement this at an earlier stage. 🆘
+> 🆘 This part will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage. 🆘
 
 
 ### Login the VSC cluster 
-
-[![asciicast](https://asciinema.org/a/407892.svg)](https://asciinema.org/a/407892)
 
 You must already have access in the VSC cluster. 
 To login, you first need to open a terminal. 
@@ -19,8 +27,6 @@ Depending on your Operating System, to do so:
 * **Linux:** type the shortcut: `ctrl+alt+t` 
 * **Mac**: type “terminal” on spotlight
 * **Windows:** Start menu -> Type “CMD”
-
-
 
 
 and then type 
@@ -71,7 +77,6 @@ cd /scratch/leuven/342/vsc34247
 ```
 
 
-
 ### Clone this `pema-mdawo` GitHub repo on your VSC account
 
 Once you are sure that your working directory is on the `scratch` section, you just need to type:
@@ -104,6 +109,16 @@ That's all! Now we are ready to go for the PEMA analysis.
 🎗️ **Hints:**  
 `pwd` stands for *print working directory*. Accordingly, `cd`  for `change directory` and `ls` for *list*.
 
+
+Here is the recording for this first part with all you need to do from your terminal console:
+[![asciicast](https://asciinema.org/a/407903.svg)](https://asciinema.org/a/407903)
+
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" >
+    <source src="https://asciinema.org/a/407903.svg4">
+  </video>
+</figure>
 
 
 ## Two major directories
