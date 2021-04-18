@@ -282,11 +282,6 @@ Let' start!
 
 1. Go to the `extra_material` directory . <br/>
 
-   :sos:  If you still have not done this, please do so! 🆘
-
-   ```bash
-   git clone https://github.com/hariszaf/pema-mdawo.git
-   ```
    Move to the `extra_material` directory by typing 
    ```bash
    cd pema-mdawo/extra_material
