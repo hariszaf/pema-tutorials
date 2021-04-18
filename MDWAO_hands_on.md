@@ -447,7 +447,7 @@ If you are confident about your internet connection, you should try this way!
 
 1. Go to the `extra_material` directory.
 
-2. **Cut** the `fastq.gz` files from there to the `mydata` directory. 
+2. **Cut** the `fastq.gz` files stored there. 
 
 3. Move back and enter the `my_analysis` directory and then the `mydata` one
 
@@ -463,7 +463,14 @@ If you are confident about your internet connection, you should try this way!
    * Move back to the `my_analysis` directory and open the `metadata.csv` file
    * Paste these 3 lines and save your changes
 
-7. Upload your `analysis_directory` to the VSC cluste
+7. Edit the `parameters.tsv` file
+
+   * Open the `parameters.tsv` file and change the value of the `outputFolderName` parameter to anything you would like 
+
+   * Save your changes and close the file. Make sure the name of the file is exactly as it should, i.e `parameters.tsv`.
+
+
+8. Upload your `analysis_directory` to the VSC cluste
 
    * Open a terminal and go to the `pema-mdawo` directory that you downloaded on your computer. Assuming that the `pema-mdawo` repository is on your `/home` directory, you need to run
 
@@ -476,10 +483,6 @@ If you are confident about your internet connection, you should try this way!
       ```
       scp -r my_analysis/ vsc34189@login.hpc.kuleuven.be://scratch/leuven/341/vsc34189/
       ```
-
-
-
-
 
 8. Run your own analysis 
 
