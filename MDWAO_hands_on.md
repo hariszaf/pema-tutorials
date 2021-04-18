@@ -278,6 +278,10 @@ Let' start!
 
    :sos: **REMEMBER!:** The `USER_PATH` variable corresponds to the `/leuven/341/vsc34189` part of the output of the `pwd` command. 
    Thus, it will have to change for each of you, according to what `pwd` returned.
+   That said, in my case I have to run
+   ```bash 
+   cd /scratch/leuven/341/vsc34189
+   ```
 
 
 <br />
