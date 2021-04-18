@@ -276,7 +276,8 @@ Let' start!
    cd /scratch/$USER_PATH
    ```
 
-   :sos: **REMEMBER!:** The `/leuven/341/vsc34189` part will have to change according to the output of the previous command and as we said earlier we will call this <span style="color:green">**`USER_PATH`**</span>.
+   :sos: **REMEMBER!:** The `USER_PATH` variable corresponds to the `/leuven/341/vsc34189` part of the output of the `pwd` command. 
+   Thus, it will have to change for each of you, according to what `pwd` returned.
 
 
 <br />
