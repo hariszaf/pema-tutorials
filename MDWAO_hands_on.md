@@ -238,6 +238,11 @@ In the first part we ran a PEMA analysis as a black box. The raw data and the pa
 
 In this part, our goal is to set all needed to run PEMA on your own. 
 
+
+Here is an overview of how a PEMA analysis directory looks like: 
+<img src="https://i.ibb.co/6Pyqwpt/pema-anlysis-dir.png">
+
+
 As raw data, we will use both the samples used in the initial run (already in the `mydata` folder) but also those stored in the `extra_material` directory.  
 The same applies for their corresponding metadata too. 
 
