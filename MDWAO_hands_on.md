@@ -350,6 +350,9 @@ Let' start!
 
 4. Edit the `parameters.tsv` file 
 
+>   You may think of the `parameters.tsv` file as a *paired-end* file where all lines that start with a `#` is a comment and tells you what the next parameter is about and the lines that do not start with a `#` are pairs of the type: *parameter <tab> value*. 
+>   The `parameters.tsv` file is a tab separated file, meaning that you always have to remember to leave **a single tab** between the parameter and its value. Careful! Not 3 or 4 spaces, but a **tab**
+
    * Open the `parameters.tsv` file 
    ```bash 
    nano parameters.tsv
