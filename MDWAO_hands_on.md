@@ -150,7 +150,8 @@ You will also find a `.csv` file called `extra_metadata.csv` with the correspond
 ✔️ This directory is just in the framework of this workshop. You will not need this when you will actually run PEMA.  
 
 
-Here is the recording for this first part with all you need to do from your terminal console:
+Here is the recording for this first part 
+from my terminal console:
 [![asciicast](https://asciinema.org/a/407903.svg)](https://asciinema.org/a/407903)
 
 
