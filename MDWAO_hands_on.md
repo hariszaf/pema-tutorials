@@ -273,7 +273,7 @@ Let' start!
 
    To do so
    ```bash
-   cd /scratch/leuven/341/vsc34189
+   cd /scratch/$USER_PATH
    ```
 
    :sos: **REMEMBER!:** The `/leuven/341/vsc34189` part will have to change according to the output of the previous command and as we said earlier we will call this <span style="color:green">**`USER_PATH`**</span>.
@@ -299,7 +299,7 @@ Let' start!
    You can see the metadata by typing:
 
    ```bash
-   ✔ [Απρ/17 23:44] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189/pema-mdawo/extra_material $ cat extra_metadata.csv 
+   ✔ [Απρ/17 23:44] vsc34189@tier2-p-login-2 /scratch/leuven/341/vsc34189/pema-mdawo/extra_material $ more extra_metadata.csv 
    Samples,Biome,Habitat,Location,Chla_waterORflSPFluorescence,Chla_sed,Phaeop_sed,CPE_sed,POC_sed,Temperature,Salinity,O2_mglt,silt_clay,sand
    ERR1906856,Lagoon,Logarou,LOin,1.147296,6.742082534,8.99409309,15.73617562,21320.32147,11.1,27.8,8.42,3.29439559,96.70560441
    ERR1906861,Sea,Kalamitsi,Kal,0.99,2.128711019,1.760383576,3.889094595,5954.198473,19.77,38.82,6.81,1.523781402,98.4762186
