@@ -143,7 +143,7 @@ In the [`mydata`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/m
 
 #### The `extra_material` directory
 
-In the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those we have already run in the first part of the hands-on. 
+In the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) folder, you will find some extra `.fastq.gz` files coming from samples from the same study with those on the `mydata` directory. 
 
 You will also find a `.csv` file called `extra_metadata.csv` with the corresponding metadata of these extra samples.
 
