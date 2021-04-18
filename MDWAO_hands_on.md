@@ -362,7 +362,7 @@ Let' start!
 
    <br />
 
-   * Find the `outputFolderName` parameter and replace the its value with any name you would like your analysis to have*, e.g `my_pema_run_at_mdawo`. <br/>
+   * Find the `outputFolderName` parameter and replace its value with any name you would like your analysis to have*, e.g `my_pema_run_at_mdawo`. <br/>
 
    * Save your changes and exit by typing `ctrl+x` and then `y` and `enter`.
 
