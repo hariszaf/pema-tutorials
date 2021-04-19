@@ -22,7 +22,7 @@ Command line can be scary! 🕹️
 
 ## Preparatory steps
 
-> 🆘 This part will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage. 🆘
+🆘 **Sections *Login the VSC cluster* and *Clone the pema-mdawo GitHub repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
 
 
 ### Login the VSC cluster 
