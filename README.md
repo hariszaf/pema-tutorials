@@ -15,7 +15,7 @@ You may find more about PEMA on its [documentation site](http://pema.hcmr.gr/)
 but also on its [GitHub repo](https://github.com/hariszaf/pema). 
 
 
-You may have a look on PEMAv2 on its recent presentation at [DNAQUAnet2021](https://www.youtube.com/channel/UC3EtwRbadjz-dBH4c30xEow).
+You may have a look on PEMAv2 on its recent presentation at [DNAQUAnet2021](https://www.youtube.com/watch?v=kht_LKMmB6w).
 
 
 ## Hands-on 
