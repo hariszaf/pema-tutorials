@@ -75,7 +75,7 @@ Command line can be scary but team work always helps! 🦸
 
 ## Preparatory steps
 
-🆘 **Sections *Login to a server* and *Get the pema-mdawo repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
+🆘 **The following section will be presented during the hands-on, however it would be better if our *hubs* would go for it *before* the workshop! The most important part for our *hubs*, is to make sure they are able to login on *Genius*,**  💯
 
 To login in a server, a cluster or any other machine, you will probably need to first open a terminal console. 
 
@@ -89,14 +89,7 @@ If you are working on **Window** you can also use [PuTTY](https://www.chiark.gre
 If you are about to use *Genius* at some point, you should also have a look [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/access/text_mode_access_using_putty.html#text-mode-access-using-putty).
 
 
-
 For a more thorough description about how you can login both on *SDF* and *Genius* (in case you have an account) can be found in the presentation steps of this hands-on.
-
-Here we present how to login in SDF via PuTTy and from a Linux console. 
-
-* 
-
-
 
 
 ### Once you are on the VSC cluster 
