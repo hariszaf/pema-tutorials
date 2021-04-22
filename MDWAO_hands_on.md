@@ -1,9 +1,11 @@
 # PEMA hands-on @ MDAWO
 
 # Table of Contents
+1. [An introduction for this PEMA hands-on](#an-introduction-for-this-pema-hands-on)
+   1. [Hands-on structure](#hands-on-structure)
 1. [Preparatory steps](#preparatory-steps)
    1. [Login the VSC cluster](#login-the-vsc-cluster)
-   2. [Clone the `pema-mdawo` GitHub repo](#clone-the-pema-mdawo-GitHub-repo)
+   2. [Get the `pema-mdawo` repo](#get-the-pema-mdawo-repo)
    3. [Two major directories](#two-major-directories)
       1. [The `my_analysis` directory](#the-my_analysis-directory)
       2. [The `extra_material` directory](#the-extra_material-directory)
@@ -73,26 +75,31 @@ Command line can be scary but team work always helps! 🦸
 
 ## Preparatory steps
 
-🆘 **Sections *Login to a server* and *Clone the pema-mdawo GitHub repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
+🆘 **Sections *Login to a server* and *Get the pema-mdawo repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
 
-
-### Login the VSC cluster 
-
-You must already have access in the VSC cluster. 
-To login, you first need to open a terminal. 
+To login in a server, a cluster or any other machine, you will probably need to first open a terminal console. 
 
 Depending on your Operating System, to do so: 
 
 * **Linux:** type the shortcut: `ctrl+alt+t` 
 * **Mac**: type “terminal” on spotlight
-* **Windows:** Start menu -> Type “CMD”
+* **Windows:** Start menu -> Open CMD
+
+If you are working on **Window** you can also use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) that you should have already installed. 
+If you are about to use *Genius* at some point, you should also have a look [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/access/text_mode_access_using_putty.html#text-mode-access-using-putty).
 
 
-and then type 
 
-```
-ssh ....and geert will thell us what! :)
-```
+For a more thorough description about how you can login both on *SDF* and *Genius* (in case you have an account) can be found in the presentation steps of this hands-on.
+
+Here we present how to login in SDF via PuTTy and from a Linux console. 
+
+* 
+
+
+
+
+### Once you are on the VSC cluster 
 
 Once loged in, you automatically move to your `home` directory.
 By typing `pwd` you may see what that is in your case.
@@ -146,7 +153,7 @@ cd /scratch/leuven/342/vsc34247
 ```
 
 
-### Clone the `pema-mdawo` GitHub repo
+### Get the `pema-mdawo` repo
 
 Once you are sure that your working directory is on the `scratch` section, you just need to type:
 
@@ -298,18 +305,51 @@ Here is an overview of how a PEMA analysis directory looks like:
 <img src="https://i.ibb.co/6Pyqwpt/pema-anlysis-dir.png">
 
 
-As raw data, we will use both the samples used in the initial run (already in the `mydata` folder) but also those stored in the `extra_material` directory.  
-The same applies for their corresponding metadata too. 
-
-Therefore, once our analysis is complete, we will have an OTUs/ASVs table of 6 samples. <br/>
 
 
-During the workshop, we will see the ***on terminal*** way to minimize the types of errors.
-However, as it is much easier when you are working on your own, to have a graphical interface, 
-[you may find below](#step-by-step-for-those-who-prefer-graphical-interface) how you can do this. 
+As we were not able to provide everyone with an account on *Genius*, remember that 
+those who had already access before this workshop will be our *hubs* and will be seated
+in separate tables. 
+Everyone else, needs to join a table where a *hub* is also there. 
+Each table builds up a **team** that has to submit a job on *Genius* with a certain set of parameteres. 
+
+**As we have 7 hosts, we have 7 tasks too!**
+
+Here is the list of these tasks:
 
 
-Let' start!
+| No Task | Task description |
+|-|-|
+| 1 | first 3 samples, low strictness, OTUs score = 0.99, Silva 132 |
+| 2 | first 3 samples, high strictness, ASVs (d = 2), Silva 132 |
+| 3 | all 6 samples, low strictness, OTUs (score = 0.97), Silva 132 |
+| 4 | all 6 samples, high strictness, OTUs (score = 0.99), Silva 132 |
+| 5 | all 6 samples, low strictness, ASVs (d = 5), Silva 132 |
+| 6 | all 6 samples, high strictness, ASVs (d = 5), remove singletons, Silva 132 |
+| 7 | all 6 samples, very high value of strictness, ASVs (d = 20), Silva 132 |
+
+
+If you have to use all the 6 samples, you may find the extra ones in the [`extra_material`](https://github.com/hariszaf/pema-mdawo/tree/main/extra_material) directory.
+Otherwise, the samples used in the initial run (already in the `mydata` folder) are just fine.
+
+
+
+**!!! Attention !!!**
+Please, always remember that *hubs* have this repo on their accounts on *Genius*. 
+
+If for any reason you still have not done this, you need to go to your `/scratch` directory and run 
+
+``` bash
+git clone https://github.com/hariszaf/pema-mdawo.git
+```
+
+That means that, you can change your `parameters.tsv` file on your computer (locally) and upload just this file as your `.fastq.gz` files are already there.  <br/>
+:100:  Remember: It is team work we need here! *Hubs* are not like the experts, it just happens to have acces on *Genius* so it is everyone that needs to controbute on that! 
+
+
+I have done an example of my own in case it helps. 
+I have done the exact same thing both by working on the terminal and on my computer and then using FileZilla to upload my edited files.
+
 
 
 ### Step-by-step: on terminal 
@@ -337,6 +377,7 @@ Let' start!
    cd /scratch/leuven/341/vsc34189
    ```
 
+   🆘 **If you still have not clone the repo, here and now is the time!!**
 
 <br />
 

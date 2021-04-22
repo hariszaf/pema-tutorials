@@ -35,7 +35,7 @@ git clone https://github.com/hariszaf/pema-mdawo.git
 We strongly suggest to do this  **before** the workshop. 
 
 -----------------------
-💯 **You may find the complete instrusctions for this hands-on on the [`MDAW0_hands_on.md`](https://github.com/hariszaf/pema-mdawo/blob/main/MDWAO_hands_on.md) file.**
+💯 **You may find the complete instrusctions for this hands-on on the [`MDAW0_hands_on.md`](https://docs.google.com/presentation/d/1e7XfTPQ-Drr9kcEFUw8vEIOYdMtzVIoeIupAR1a-oO8/edit?usp=sharing) file.**
 
 💯 **We strongly suggest to try to log-in in the VSC cluster and clone the repo before the hands-on.** 
 
