@@ -13,16 +13,67 @@
    2. [Step-by-step: for those who prefer graphical interface](#step-by-step-for-those-who-prefer-graphical-interface)
 
 
+
+
+## An introduction for this PEMA hands-on
+
+Even if we tried hard, we finally did not make it to provide everyone access to the VSC cluster.
+PEMA enables running on personal computers for a few samples. 
+However, it is a High Performance Computing (HPC)-oriented workflow and one of the main goals of this hands-on is for you to become familiar with such computing environments. 
+To this end, we found alternatives so you can have a first experience on such tasks. 
+
+As we have 7 participants that already had access on the *Genius* cluster of VSC, 
+we will work on a hybrid way; let's call those 7 colleagues *hubs*.
+Apparently, everyone else will have to be close to a *hub*.  🖇️
+
+🆘 ***Hubs*** please make sure you sit in different tables, and the rest of us we will come join you! 👍
+
+* Then, everyone but the *hubs*, we will login on the [Super Dimension Fortress (SDF)](http://sdf.org/).  <br/>
+SDF is a networked community of free software authors, teachers, librarians, students, researchers, hobbyists, computer enthusiasts, the aural and visually impaired and provided us with 150 accounts. 
+
+* *Hubs* you will login on *Genius*. 
+
+We will all see how to do both in just a while!<br/>
+🥳 At this point, I think we own a great thanks to the SDF community for their support!
+
+
+### Hands-on structure 
+
 This tutorial has 3 main parts.
-In the end of each part, you will find a recording of 
-the terminal parts you will have to run for each of those 
-to help you go through it. 
-Hope it helps, but in all cases, feel free to ask anytime about anything!
-Command line can be scary! 🕹️
+
+In the first place, we will see the basics of Command Line Interface and how to login on a server and walk around. 
+
+
+In **Part A** we will go through:
+* the input files of PEMA
+* the single command for using PEMA
+* the `.pbs` script you need to submit a job on *Genius*
+* the output that PEMA returns
+
+During this part, you will download (or make a *clone*) of this repository and we will see 
+how you can transfer files from your computer to a server. 
+You will also implement some basics command line commands, to become familiar working on such environments. 
+Finally, each table, will submit **the exact same** PEMA job on *Genius* that returns the [`output_example`](https://github.com/hariszaf/pema-mdawo/tree/main/my_analysis/output_example). 
+
+
+
+In **Part B** our main goal is to highlight the importance of the parameter tuning in metabarcoding. 
+Each table will have to run its own PEMA job.
+**All participants of a table need to work as a group** and build the `parameters.tsv` input file of PEMA, according to the instructions that they will have in the table's task. 
+There will be 7 tasks, one for each *hub* so in the end we will be able to compare the
+outcome of 7 different parameters sets! 
+
+
+In the end of each of the following sections you will find a recording of what I did to 
+run an analysis on the VSC cluster. 
+Please feel free to ask anytime about anything!
+Command line can be scary but team work always helps! 🦸 
+
+
 
 ## Preparatory steps
 
-🆘 **Sections *Login the VSC cluster* and *Clone the pema-mdawo GitHub repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
+🆘 **Sections *Login to a server* and *Clone the pema-mdawo GitHub repo* will be presented during the workshop however, we strongly suggest to walk through this at an earlier stage.**  💯
 
 
 ### Login the VSC cluster 
@@ -157,17 +208,20 @@ from my terminal console:
 
 -------------------
 
-Many thanks to Dr. Christina Pavloudi for providing us with both data and their corresponding metadata.
+Many thanks to [Dr. Christina Pavloudi](https://imbbc.hcmr.gr/user/cpavloud/) for providing us with both data and their corresponding metadata.
+These data are from a study aiming to investigate the sediment bacterial diversity of a transect river-lagoon-open sea.
 You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/browser/view/PRJEB20211).
 
 -------------------
 
 
-
-
 ## Part A: Run as a black box
 
-This will be the first task of the workshop and you will implement it on the 
+This is the first task of this hands-on
+
+
+
+and you will implement it on the 
 first part of it. 
 
 In this task, you will run an already set up PEMA analysis, using the 3
