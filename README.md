@@ -23,7 +23,7 @@ You may have a look on PEMAv2 on its recent presentation at [DNAQUAnet2021](http
 
 In this GitHub repository (repo), you will find all the relative material for the [MDAWO](https://mdawo.meetinghand.com/) - April 20 - 23, 2021.
 
-You may also find the presentation for this workshop as a [Google Slides](https://docs.google.com/presentation/d/1wTDkCBEC8MkQDr6efGE0xsluO87GB-5thnMGIdNb_tY/edit?usp=sharing).
+You may also find the presentation for this workshop as a [Google Slides](https://docs.google.com/presentation/d/1e7XfTPQ-Drr9kcEFUw8vEIOYdMtzVIoeIupAR1a-oO8/edit#slide=id.gd03edd6146_0_246).
 This will help you have an overview of the hands-on.
 
 Once you will have access to the VSC cluster, you may login and ***clone*** this repo by typing:
