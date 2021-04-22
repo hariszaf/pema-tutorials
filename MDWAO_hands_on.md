@@ -88,8 +88,11 @@ Depending on your Operating System, to do so:
 If you are working on **Windows** you can also use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) that you should have already installed. 
 If you are about to use *Genius* at some point, you should also have a look [here](https://vlaams-supercomputing-centrum-vscdocumentation.readthedocs-hosted.com/en/latest/access/text_mode_access_using_putty.html#text-mode-access-using-putty).
 
+--------------------
 
-For a more thorough description about how you can login both on *SDF* and *Genius* (in case you have an account) can be found in the [presentation slides](https://docs.google.com/presentation/d/1e7XfTPQ-Drr9kcEFUw8vEIOYdMtzVIoeIupAR1a-oO8/edit#slide=id.gd038431b4f_0_311) of this hands-on.
+**For a more thorough description about how you can login both on *SDF* and *Genius* (in case you have an account) can be found in the [presentation slides](https://docs.google.com/presentation/d/1e7XfTPQ-Drr9kcEFUw8vEIOYdMtzVIoeIupAR1a-oO8/edit#slide=id.gd038431b4f_0_311) of this hands-on.**
+
+--------------------
 
 
 ### Once you are on the VSC cluster 
