@@ -1,4 +1,4 @@
-# Tutorials, hands-on and classes uning the PEMA workflow
+# Tutorials, hands-on and classes using the PEMA workflow
 
 
 <img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 220px; align="left"  />
