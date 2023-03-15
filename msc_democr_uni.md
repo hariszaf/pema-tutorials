@@ -36,17 +36,16 @@ and checkout to the branch for this class
 git checkout ms-democr-class
 ```
 
+On this branch, you will find:
 
-This repo includes: 
-
-1. The [`my_analysis`](https://github.com/hariszaf/pema-tutorials/tree/main/my_analysis) directory. This directory includes a complete example of a PEMA analysis. Both the mandatory and optional input files for PEMA as well as an example output.
-2. A `.pbs` script that is **not** 
-3. The `extra_material` directory, where you will find some extra samples (raw data) along with their corresponding metadata to perform a second PEMA analysis on your own. 
-
-
-
-
+1. The [`my_analysis`](https://github.com/hariszaf/pema-tutorials/tree/ms-democr-class/my_analysis) directory. 
+This directory includes a complete example of a PEMA analysis. 
+Both the mandatory and optional input files for PEMA as well as an example output.
 In the [`mydata`](https://github.com/hariszaf/pema-tutorials/tree/main/my_analysis/mydata) folder, you will find 6 `.fastq.gz` samples coming from 3 paired-end samples. 
+
+2. The `extra_material` directory, where you will find some extra samples (raw data) along with their corresponding metadata to perform a second PEMA analysis on your own. 
+
+
 
 
 🆘🙈🆘 While the name of the `my_analysis` directory can be anything, the name of the `mydata` folder needs to **stay always like this!**
