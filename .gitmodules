@@ -1,0 +1,3 @@
+[submodule "cwl-task"]
+	path = cwl-task
+	url = https://github.com/emo-bon/hackathon2022.git
