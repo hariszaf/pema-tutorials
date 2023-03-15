@@ -2,33 +2,37 @@
 ################################   PEMA 's PARAMETERS   ####################################
 ############################################################################################
 #
-#    for version 2.0.1
+#    for version 2.1.4
 #
-# In this file there are all the parameters that need to be assigned every time PEMA is about to run!
-# The parameters we have here, are not the only parameters of the tools invoked by PEMA.
-# Hence, we encourage you the most to study the manual of each tool and make them as good as possible for your specific experiment.
-# In the link next to each tool, you can find further information about its parameters. 
+# In this file there are all the parameters that need to be assigned every time PEMA is 
+# about to run! The parameters we have here, are not the only parameters of the tools 
+# invoked by PEMA. Hence, we encourage you the most to study the manual of each tool and 
+# make them as good as possible for your specific experiment.
 #
 # ATTENTION!
-# From each variable you have to leave EXACTLY ONE (1) TAB and then fill the parameter as you wish. 
+# From each variable you have to leave EXACTLY ONE (1) TAB and then fill in the parameter. 
 #
 #
 ############################################################################################
 ########################## The parameter setting starts frome here!  #######################
 ############################################################################################
 #
-# Give in your each unique experiment a NAME, so a single output file will be created for each of them 
+# Give in your each uniq experiment a NAME, so a single output file will be created for each of them 
 #
-outputFolderName	my_first_pema_analysis
+outputFolderName	test_Swarm_16S
 #
 #
-# If the names of the samples under analysis are not in an ENA format (e.g "ERR1021912") but they are more like as
-# the Illumina sequencer returned them (e.g "FdCor_1.fast.gz") PEMA might has a problem in dealing with them.
-# We strongly suggest you to use the "convertIllumunaRawDataToEnaFormat.sh" script you can find in the GitHub repository of PEMA
+# PEMA needs the names of the samples to be as in ENA format (e.g "ERR1021912") but 
+# they are more like as the Illumina sequencer returned them (e.g "FdCor_1.fast.gz") 
 # In order to change the names of your samples as they should be.
 # Otherwise, you need to set the "EnaData" variable as 'No'.  
 EnaData	Yes
 #
+# Each sequencer has a special combination of letters with which all its reads start with
+# For example MiSeq has "@M0". Please provide this pattern to PEMA to convert your data to the ENA 
+# format. If you do not know that, you can either google it or gunzip a fastq.gz files of yours and provide
+# the letatters between the "@" and the first ":" characters.
+sequencerPrefix	M0
 #
 #############################################################
 #################   fastqc (v0.11.8)    #####################
@@ -113,7 +117,7 @@ minlen	100
 #
 # Finally, you need to set how many threads you want Trimmomatic to run into. 
 #
-threadsTrimmomatic	20
+threadsTrimmomatic	8
 #
 #
 ###############################################################
@@ -143,7 +147,7 @@ pandaseqAlgorithm	simple_bayesian
 # PANDAseq is a I/O bound algorithm. That means that it needs severous time in order to handle the ipnut and output files
 # while the process is quite fast. However, it does support multithreading and here you can set the number of threads it is going to use.
 #
-pandaseqThreads	20
+pandaseqThreads	8
 #
 #
 # The 'minlen' parameter sets the minimum length for a sequence, after primers are removed. 
@@ -198,7 +202,7 @@ elimination
 # Set how many threads do you want PANDAseq to use.
 # It needs an integer to be set as a value.
 #
-vsearchThreads	20
+vsearchThreads	8
 #
 #
 # Here you need to set a score about the clustering step of the VSEARCH algorithm. 
@@ -242,9 +246,10 @@ numberOfCoresForPapara	7
 #
 # When you use the alignment-based taxonomy assignment, then the LCAClassifier from the CREST algorithm, uses a Silva version for the assignment. 
 # PEMA allows you to choose between the two last version of Silva. Hence, set the "silvaVersion" parameter either as 'silva_128' or as 'silva_132'
-# depending on the version of your choice.
+# depending on the version of your choice. 
+# In case you are running 18S rRNA data, you may also use the PR2 database, by setting the referenceDb parametera as 'pr2'.
 #
-silvaVersion	silva_132
+referenceDb	silva_132
 #
 #
 # As you may need a series of taxonomy assignment when you use the alignment-based method, please give another name in your 
@@ -272,19 +277,12 @@ reverseITSPrimer	CTBTTVCCKCTTCACTCG
 #
 #
 # For the case of the 16S and 18S rRNA marker genes, you can either get an OTU-table using the VSEARCH algorithm
-# or you can get an ASV-table by taking advantage of the SWARM algorithm. Please fill in which of those
-# two, you prefere to run (write "swarm" or "vsearch" after algo_).
+# or you can get an ASV-table by taking advantage of the SWARM algorithm. 
+# If your marker gene is  COI or ITS, you can choose between 2 different approaches of clustering. 
+# Depending on which of them you choose you get either a robust output in a short time (Swarm) or a non-robust output (CROP) that requires quite much more time.
+# Please fill in accroding to your marker gene and needs (write "Swarm" or "vsearch" or "CROP" after algo_).
 #
-clusteringAlgoFor16S_18SrRNA	algo_vsearch
-#
-#
-# If your marker gene is  COI or ITS, you can choose between 2 different approaches of clustering. Depending on which of them you choose
-# you get either a robust output in a short time (SWARM)  or a non-robust output (CROP) that requires quite much more time.
-# CROP is a bayesian algorithm and that is why its output in non-robust.
-# By default, SWARM (v2.2.2) algorithm runs for the clustering.
-# You have to change in to 'CROP' if you want the CROP algorithm to do the clustering step.
-#
-clusteringAlgoForCOI_ITS	algo_SWARM
+clusteringAlgo	algo_Swarm
 #
 #
 # In case of SWARM, the user needs to speeecify the value of "d" parameter,
@@ -292,7 +290,7 @@ clusteringAlgoForCOI_ITS	algo_SWARM
 # will be grouped if they hav e integer (or less) differences. This is swarm's most important
 # parameter
 #
-d	20
+d	15
 #
 #
 # when using the option --fastidious (-f), define the minimum mass of a large ASV. 
@@ -363,14 +361,20 @@ midori_version	midori_1
 # The `name_of_custom_db` may be empty or no depending on whether you will use a custom db or not.
 #
 custom_ref_db	No
-name_of_custom_db	myrefdb
+name_of_custom_db	partialCustomdb
 #
+#######################################################################################################
 #
-#########################################################################################################
+# In case you would like to link the OTU/ASV assignment to its closest NCBI Taxonomy Id
+# set the following parameter as `Yes`
 #
-#		the following parameters is only for the case that the Phyloseq R package is about to run
+getNCBITaxId	No
 #
-#########################################################################################################
+######################################################################################################
+#
+# The following parameters is only for the case that the Phyloseq R package is about to run
+#
+######################################################################################################
 #
 # If wish to use Phyloseq in order to analyse your returned data then set the following  parameter 'phyloseq' with 'Yes'.
 # In order to do that, PEMA needs an MSA that it is returned by the MAFFT (v7.427) aligner and a phylogeny tree of the OTUs found which is built by the RAxML-ng algorithm.
@@ -382,7 +386,7 @@ phyloseq	Yes
 # The phyloseq object can handle phylogenetic trees as well. PEMA uses RAxML-ng in order to build such trees.
 # Do you want to create such a tree with your OTUs? In case you build this once, you can use it as many times as you want.
 #
-tree	No
+tree	Yes
 #
 # In case you are about to use the phyloseq option, then a phylogeny tree has to be built. Hence, PEMA invokes the RAxML-ng algorithm
 # which is able to run in more than one threads. Please set the number of threads RAxML is able to use.
@@ -409,3 +413,17 @@ emptyRawDataFile	Yes
 emptyCheckpoints	Yes
 #
 #
+# Classifier to use, parameter values ("CREST","phylogeny","RDPClassifier")
+# If you are about to use a version of Silva db, or Unite db or a custom db that you have prepared
+# the required files accordingly 
+# (see https://hariszaf.github.io/pema_documentation/training_crest_classifier/), 
+# you may set this parameter as "CREST".
+# In case you are running 16S data and you would like a phylogeny based taxonomy assignment, 
+# you may set this parametera as "phylogeny"
+# In case you are about to use a version of Midori or a custom db for which you have prepared the 
+# required files (see https://hariszaf.github.io/pema_documentation/training_rdpclassifier/) you 
+# may set this parameter as "RDPClassifier"
+classifierAlgo	CREST
+#
+# 
+# 
