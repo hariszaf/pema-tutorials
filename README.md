@@ -23,7 +23,7 @@ You may have a look on PEMAv2 on its recent presentation at [DNAQUAnet2021](http
 
 ## MSc class course in "Applied Bioinformatics & Data Analysis" 
 
-The tasks need to be performed in the framework of the class can be found in the [msc_democr_uni.md](https://github.com/hariszaf/pema-tutorials/tree/main/my_analysis).
+The tasks need to be performed in the framework of the class can be found in the [msc_democr_uni.md](https://github.com/hariszaf/pema-tutorials/blob/ms-democr-class/msc_democr_uni.md).
 
 
 ## PEMA as an open source project
