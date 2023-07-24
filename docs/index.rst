@@ -1,7 +1,7 @@
-Welcome to metaGOflow's documentation!
+Welcome to pema's documentation!
 ===================================
 
-**metaGOflow** is a Common Workflow Language (CWL) based pipelines
+**pema** is a Common Workflow Language (CWL) based pipelines
 for the analysis of shotgun metagenomic data at the sample level.
 It is built to address the needs of the [EMO B0N community](https://www.embrc.eu/services/emo-bon)
 but it can be used for any type of shotgun data. 
