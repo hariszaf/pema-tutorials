@@ -3,25 +3,16 @@
 ## Table of Contents
 
 1. [Aim of this assignment!](#aim-of-this-assignment)
-2. [Run a metabarcoding analysis with PEMA](#run-a-metabarcoding-analysis-with-pema-mandatory)
-3. [Run and develop CWL toy-workflows](#run-and-develop-cwl-toy-workflows-optional)
+2. [Run a metabarcoding analysis with PEMA](#task1-run-a-metabarcoding-analysis-with-pema)
+3. [Run and develop CWL toy-workflows](#task2-run-and-develop-cwl-toy-workflows)
 4. [A short comment on the assignment](#a-short-comment-on-the-assignment)
 ----------
 
 ## Aim of this assignment 
 
-Each group will:
-- run a metabarcoding analysis using PEMA
-- based on its outcome, will highlight the effect of paramaters tuning in such an analysis
-
-and optionally:
-
-- run a CWL tool 
-- develop a 2-steps workflow on CWL 
-
 -------------
 
-## Run a metabarcoding analysis with PEMA (mandatory)
+## Task1: Run a metabarcoding analysis with PEMA
 
 
 - Login to your account on the MSc server 
@@ -111,11 +102,13 @@ You may find this project in ENA under this [link](https://www.ebi.ac.uk/ena/bro
 
 -------------------
 
-<img src="https://camo.githubusercontent.com/762c1129f266494bbbb3faff3d673040cf7b1f19d45c6e13f49b08de12f5116a/68747470733a2f2f692e70617374652e706963732f38373031383966616466363638613935386338616163383366333865373939632e706e67" width= 220px; align="center"  />
 
 
-## Run and develop CWL toy-workflows (optional)
+## Task2: Run and develop CWL toy-workflows 
 
+<img src="https://cdn.codegym.cc/images/article/23a134d1-745d-4f4b-830f-7d031ef4bb22/800.jpeg" width= 220px; align="center"  />
+
+not PEMA-related but a glimple on metaGOflow
 
 If interested in technologies such as the Common Workflow Language (CWL), you may jump into the [hands-on session of the EMO BON hackathon 2022](https://github.com/emo-bon/hackathon2022/blob/ef2ccbb737a71feebbc0e5bd11fd656be3e5956c/handson_instructions.md). You will have to skip the commands related to the server described for that tutorial, but you may move straightforwarf from the [Clone the emo-bon/Hackathon2022 GitHub repository](https://github.com/emo-bon/hackathon2022/blob/ef2ccbb737a71feebbc0e5bd11fd656be3e5956c/handson_instructions.md#clone-the-emo-bonhackathon2022-github-repository) step.
 
